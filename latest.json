@@ -70,15 +70,15 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-21T04:18:32.421557",
+    "last_updated": "2026-03-21T05:26:01.848073",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -93,8 +93,8 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "red",
+        "hours": 0.21,
         "quality": null
       },
       "acwr": {
@@ -113,8 +113,8 @@
     "signal_summary": {
       "green": 1,
       "amber": 0,
-      "red": 0,
-      "unavailable": 5
+      "red": 1,
+      "unavailable": 4
     },
     "phase_context": {
       "phase": "Recovery",
@@ -123,8 +123,17 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 1 green, 0 amber (threshold 2), 0 red. Note: 5 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "preserve",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 1 red (sleep), 0 amber ().",
     "alarm_refs": []
   },
   "history": {
@@ -187,8 +196,8 @@
       "resting_hr": 40,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 0.21,
+      "sleep_formatted": "12m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -377,7 +386,7 @@
     "p_max": 809,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-21T04:18:32.420402",
+    "calculation_timestamp": "2026-03-21T05:26:01.846914",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -632,8 +641,8 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 0.21,
+      "sleep_formatted": "12m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
