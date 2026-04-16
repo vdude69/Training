@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T23:58:36.279297",
+  "generated_at": "2026-04-16T03:19:41.377987",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -74,93 +74,6 @@
           "zone": 2,
           "training_load": 0.25389156,
           "decoupling": 17.02454
-        }
-      ]
-    },
-    {
-      "activity_id": "i138870758",
-      "date": "2026-04-08",
-      "type": "Run",
-      "name": "Stryd CP Test (2*1' rec.5' /5' WU/5'CD)",
-      "interval_summary": [
-        "2x 5m 145bpm",
-        "1x 60s 154bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "300s@208w81rpm",
-          "duration_secs": 308,
-          "avg_power": 210,
-          "max_power": 245,
-          "avg_hr": 144,
-          "max_hr": 148,
-          "avg_cadence": 80.96753,
-          "zone": 3,
-          "training_load": 5.922361,
-          "decoupling": 1.4568063
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 60,
-          "avg_power": 263,
-          "max_power": 281,
-          "avg_hr": 154,
-          "max_hr": 159,
-          "avg_cadence": 85.48333,
-          "zone": 4,
-          "training_load": 1.7204267,
-          "decoupling": 1.3461475
-        },
-        {
-          "type": "WORK",
-          "label": "300s@208w81rpm",
-          "duration_secs": 292,
-          "avg_power": 206,
-          "max_power": 221,
-          "avg_hr": 146,
-          "max_hr": 159,
-          "avg_cadence": 80.93493,
-          "zone": 3,
-          "training_load": 5.7232,
-          "decoupling": -6.5310464
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 10,
-          "avg_power": 227,
-          "max_power": 276,
-          "avg_hr": 145,
-          "max_hr": 147,
-          "avg_cadence": 84.5,
-          "zone": 3,
-          "training_load": 0.20353778,
-          "decoupling": -14.601245
-        },
-        {
-          "type": "WORK",
-          "label": "60s@264w85rpm",
-          "duration_secs": 60,
-          "avg_power": 264,
-          "max_power": 277,
-          "avg_hr": 154,
-          "max_hr": 158,
-          "avg_cadence": 85.083336,
-          "zone": 4,
-          "training_load": 1.7613066,
-          "decoupling": 3.9375064
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 297,
-          "avg_power": 210,
-          "max_power": 226,
-          "avg_hr": 149,
-          "max_hr": 156,
-          "avg_cadence": 80.952866,
-          "zone": 3,
-          "training_load": 6.045072,
-          "decoupling": -3.8024855
         }
       ]
     }
