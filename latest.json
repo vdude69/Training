@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 2.08,
       "total_training_formatted": "2h4m",
-      "total_activities": 13,
+      "total_activities": 12,
       "total_tss": 63
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-21T18:37:14.745827",
+    "last_updated": "2026-04-21T19:49:07.483236",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -9.2
+        "value": -5.7
       }
     },
     "signal_summary": {
@@ -148,11 +148,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 2.08,
-    "total_activities": 13,
+    "total_activities": 12,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 9,
+        "count": 8,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -166,10 +166,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 23.42,
-      "atl": 32.66,
-      "tsb": -9.24,
-      "ramp_rate": 2.69,
+      "ctl": 22.67,
+      "atl": 28.4,
+      "tsb": -5.73,
+      "ramp_rate": 1.94,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -422,12 +422,12 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-21T18:37:14.744490",
+    "calculation_timestamp": "2026-04-21T19:49:07.481819",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 13,
-      "activities_28d": 37,
+      "activities_7d": 12,
+      "activities_28d": 36,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
@@ -440,7 +440,7 @@
       "id": "i141806010",
       "date": "2026-04-21T19:17:32",
       "type": "VirtualRide",
-      "name": "ROUVY - Hornafj\u00f6rdur | Iceland",
+      "name": "Cool down ROUVY - Hornafj\u00f6rdur | Iceland",
       "duration_hours": 0.15,
       "distance_km": 3.72,
       "tss": 2,
@@ -492,7 +492,7 @@
       "id": "i141801896",
       "date": "2026-04-21T18:25:48",
       "type": "VirtualRide",
-      "name": "ROUVY - IRONMAN Maryland (1st loop)",
+      "name": "Z2 147/118 50' ROUVY - IRONMAN Maryland (1st loop)",
       "duration_hours": 0.84,
       "distance_km": 27.18,
       "tss": 28,
@@ -544,7 +544,7 @@
       "id": "i141781953",
       "date": "2026-04-21T18:15:17",
       "type": "VirtualRide",
-      "name": "ROUVY - Waipapa Bay - Kaikoura",
+      "name": "WU ROUVY - Waipapa Bay - Kaikoura",
       "duration_hours": 0.16,
       "distance_km": 3.07,
       "tss": 4,
@@ -590,41 +590,6 @@
           "z7_time": 0
         }
       },
-      "has_intervals": false
-    },
-    {
-      "id": "18200904675",
-      "date": "2026-04-21T18:15:08",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
       "has_intervals": false
     },
     {
@@ -1248,7 +1213,7 @@
     "total_training_hours": 2.08,
     "total_training_formatted": "2h4m",
     "total_tss": 63,
-    "activities_count": 13,
+    "activities_count": 12,
     "avg_hrv": 37.9,
     "avg_resting_hr": 43.4
   },
