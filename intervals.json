@@ -1,79 +1,53 @@
 {
-  "generated_at": "2026-04-18T23:50:52.522475",
+  "generated_at": "2026-04-23T11:57:05.309174",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
     {
-      "activity_id": "i138868401",
-      "date": "2026-04-11",
-      "type": "Run",
-      "name": "8km - 50' Easy",
+      "activity_id": "i142237912",
+      "date": "2026-04-23",
+      "type": "VirtualRide",
+      "name": "45' Z2 146/110 ROUVY - Power control workout: Col Saint Martin | France",
       "interval_summary": [
-        "1x 40m48s 141bpm",
-        "1x 8m7s 143bpm"
+        "1x 54m53s 146w"
       ],
       "intervals": [
         {
           "type": "RECOVERY",
-          "duration_secs": 9,
-          "avg_power": 98,
-          "max_power": 170,
-          "avg_hr": 97,
-          "max_hr": 97,
-          "avg_cadence": 62.555557,
+          "duration_secs": 7,
+          "avg_power": 45,
+          "max_power": 84,
+          "avg_hr": 56,
+          "max_hr": 56,
+          "avg_cadence": 41.42857,
           "zone": 1,
-          "decoupling": -60.81356
+          "decoupling": -129.74684
         },
         {
           "type": "WORK",
-          "label": "2448s@216w81rpm",
-          "duration_secs": 2448,
-          "avg_power": 216,
-          "max_power": 247,
-          "avg_hr": 141,
-          "max_hr": 148,
-          "avg_cadence": 80.94404,
+          "label": "3293s@146w82rpm",
+          "duration_secs": 3293,
+          "avg_power": 146,
+          "max_power": 253,
+          "avg_hr": 110,
+          "max_hr": 127,
+          "avg_cadence": 81.5706,
           "zone": 2,
-          "training_load": 50.761726,
-          "decoupling": 7.810302
+          "training_load": 30.212784,
+          "decoupling": 4.6136885
         },
         {
           "type": "RECOVERY",
-          "duration_secs": 51,
-          "avg_power": 200,
-          "max_power": 210,
-          "avg_hr": 143,
-          "max_hr": 145,
-          "avg_cadence": 82.117645,
-          "zone": 2,
-          "training_load": 0.943296,
-          "decoupling": 1.6378859
-        },
-        {
-          "type": "WORK",
-          "label": "487s@208w81rpm",
-          "duration_secs": 487,
-          "avg_power": 208,
-          "max_power": 221,
-          "avg_hr": 143,
-          "max_hr": 147,
-          "avg_cadence": 81.40862,
-          "zone": 2,
-          "training_load": 9.364252,
-          "decoupling": -0.9450419
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 14,
-          "avg_power": 170,
-          "max_power": 196,
-          "avg_hr": 143,
-          "max_hr": 143,
-          "avg_cadence": 70.64286,
-          "zone": 2,
-          "training_load": 0.25389156,
-          "decoupling": 17.02454
+          "duration_secs": 607,
+          "avg_power": 98,
+          "max_power": 163,
+          "avg_hr": 103,
+          "max_hr": 123,
+          "avg_cadence": 79.388794,
+          "zone": 1,
+          "training_load": 2.781102,
+          "decoupling": 12.454524
         }
       ]
     }
