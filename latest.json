@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T00:01:29.878219",
+    "last_updated": "2026-04-26T03:54:57.189795",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -132,7 +132,7 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Recovery",
+      "phase": "Base",
       "phase_week": 5,
       "amber_threshold": 2,
       "modifier_applied": "default"
@@ -153,8 +153,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-03-17",
-    "age_days": 39,
+    "last_generated": "2026-04-26",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -383,16 +383,16 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Recovery",
+      "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
-        "DECLINING_LOAD_NO_HARD_DAYS"
+        "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.27,
-          "acwr_trend": "stable",
-          "hard_day_pattern": 0,
+          "ctl_slope": 0.6,
+          "acwr_trend": "rising",
+          "hard_day_pattern": 0.8,
           "weeks_available": 4
         },
         "stream_2": {
@@ -406,14 +406,14 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": "Recovery",
+      "previous_phase": "Base",
       "phase_duration_weeks": 5,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Recovery",
+    "phase_detected": "Base",
     "phase_triggers": [
-      "DECLINING_LOAD_NO_HARD_DAYS"
+      "NO_PLANNED_WORKOUTS"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -436,7 +436,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T00:01:29.876961",
+    "calculation_timestamp": "2026-04-26T03:54:57.188807",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
