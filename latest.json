@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T16:52:30.598006",
+    "last_updated": "2026-04-29T18:09:00.873852",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -422,7 +422,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T16:52:30.596752",
+    "calculation_timestamp": "2026-04-29T18:09:00.698892",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -440,7 +440,7 @@
       "id": "i144095762",
       "date": "2026-04-29T17:22:40",
       "type": "VirtualRide",
-      "name": "ROUVY - Power control workout: Maastricht to Partij | Netherlands",
+      "name": "45' ROUVY Z2 160/115 - Power control workout: Maastricht to Partij | Netherlands",
       "duration_hours": 1.08,
       "distance_km": 24.69,
       "tss": 36,
@@ -486,7 +486,7 @@
           "z7_time": 0
         }
       },
-      "has_intervals": false
+      "has_intervals": true
     },
     {
       "id": "i143620440",
