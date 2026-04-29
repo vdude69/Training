@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T16:52:30.597878",
+  "generated_at": "2026-04-29T18:09:00.699930",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -84,6 +84,54 @@
           "zone": 1,
           "training_load": 1.0802901,
           "decoupling": -17.191898
+        }
+      ]
+    },
+    {
+      "activity_id": "i144095762",
+      "date": "2026-04-29",
+      "type": "VirtualRide",
+      "name": "45' ROUVY Z2 160/115 - Power control workout: Maastricht to Partij | Netherlands",
+      "interval_summary": [
+        "1x 44m48s 160w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 607,
+          "avg_power": 98,
+          "max_power": 137,
+          "avg_hr": 86,
+          "max_hr": 102,
+          "avg_cadence": 77.85173,
+          "zone": 1,
+          "training_load": 2.5249217,
+          "decoupling": -19.024767
+        },
+        {
+          "type": "WORK",
+          "label": "2688s@160w83rpm",
+          "duration_secs": 2688,
+          "avg_power": 160,
+          "max_power": 345,
+          "avg_hr": 115,
+          "max_hr": 125,
+          "avg_cadence": 82.957214,
+          "zone": 2,
+          "training_load": 28.411718,
+          "decoupling": 3.4335146
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 612,
+          "avg_power": 101,
+          "max_power": 167,
+          "avg_hr": 101,
+          "max_hr": 121,
+          "avg_cadence": 78.978584,
+          "zone": 1,
+          "training_load": 2.7719386,
+          "decoupling": 0.916579
         }
       ]
     }
