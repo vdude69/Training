@@ -1,56 +1,9 @@
 {
-  "generated_at": "2026-04-30T23:47:12.484702",
+  "generated_at": "2026-05-01T02:35:21.280665",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i142237912",
-      "date": "2026-04-23",
-      "type": "VirtualRide",
-      "name": "45' Z2 146/110 ROUVY - Power control workout: Col Saint Martin | France",
-      "interval_summary": [
-        "1x 54m53s 146w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7,
-          "avg_power": 45,
-          "max_power": 84,
-          "avg_hr": 56,
-          "max_hr": 56,
-          "avg_cadence": 41.42857,
-          "zone": 1,
-          "decoupling": -129.74684
-        },
-        {
-          "type": "WORK",
-          "label": "3293s@146w82rpm",
-          "duration_secs": 3293,
-          "avg_power": 146,
-          "max_power": 253,
-          "avg_hr": 110,
-          "max_hr": 127,
-          "avg_cadence": 81.5706,
-          "zone": 2,
-          "training_load": 30.212784,
-          "decoupling": 4.6136885
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 607,
-          "avg_power": 98,
-          "max_power": 163,
-          "avg_hr": 103,
-          "max_hr": 123,
-          "avg_cadence": 79.388794,
-          "zone": 1,
-          "training_load": 2.781102,
-          "decoupling": 12.454524
-        }
-      ]
-    },
     {
       "activity_id": "i143620440",
       "date": "2026-04-28",
