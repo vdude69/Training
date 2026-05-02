@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-02T13:15:20.272483",
+    "last_updated": "2026-05-02T14:28:08.814218",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -112,9 +112,9 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": 3
+        "status": "red",
+        "hours": 0.6,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
@@ -132,8 +132,8 @@
     "signal_summary": {
       "green": 0,
       "amber": 2,
-      "red": 0,
-      "unavailable": 4
+      "red": 1,
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Base",
@@ -144,6 +144,7 @@
     "race_week_defers": false,
     "modification": {
       "triggers": [
+        "sleep",
         "acwr",
         "tsb"
       ],
@@ -153,7 +154,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 2 amber (acwr, tsb) >= threshold 2.",
+    "reason": "P2 signal count. 1 red (sleep), 2 amber (acwr, tsb).",
     "alarm_refs": []
   },
   "history": {
@@ -228,10 +229,10 @@
       "weight_kg": 77.0,
       "resting_hr": 40,
       "hrv": null,
-      "sleep_quality": 3,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": 69.0,
+      "sleep_quality": 2,
+      "sleep_hours": 0.6,
+      "sleep_formatted": "36m",
+      "sleep_score": 72.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -256,7 +257,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 66.0
+      "readiness": 69.0
     }
   },
   "derived_metrics": {
@@ -441,7 +442,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-02T13:15:20.271313",
+    "calculation_timestamp": "2026-05-02T14:28:08.813035",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -906,10 +907,10 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": 3,
-      "sleep_score": 69.0,
+      "sleep_hours": 0.6,
+      "sleep_formatted": "36m",
+      "sleep_quality": 2,
+      "sleep_score": 72.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -937,7 +938,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 66.0
+      "readiness": 69.0
     }
   ],
   "planned_workouts": [],
