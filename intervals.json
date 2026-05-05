@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T12:12:23.001906",
+  "generated_at": "2026-05-05T17:47:40.707735",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -85,6 +85,72 @@
           "zone": 1,
           "training_load": 2.7719386,
           "decoupling": 0.916579
+        }
+      ]
+    },
+    {
+      "activity_id": "i145703408",
+      "date": "2026-05-05",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Workout: TPV 70' HRbased ERG Z2 115-125bpm",
+      "interval_summary": [
+        "1x 10m8s 113w",
+        "1x 1h10m 155w",
+        "1x 9m58s 65w",
+        "1x 24s 1w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "608s@113w76rpm",
+          "duration_secs": 608,
+          "avg_power": 113,
+          "max_power": 143,
+          "avg_hr": 88,
+          "max_hr": 95,
+          "avg_cadence": 75.69244,
+          "zone": 1,
+          "training_load": 3.3360767,
+          "decoupling": 2.587286
+        },
+        {
+          "type": "WORK",
+          "label": "4201s@155w80rpm",
+          "duration_secs": 4201,
+          "avg_power": 155,
+          "max_power": 369,
+          "avg_hr": 118,
+          "max_hr": 131,
+          "avg_cadence": 80.05641,
+          "zone": 2,
+          "training_load": 42.224884,
+          "decoupling": 14.362434
+        },
+        {
+          "type": "WORK",
+          "label": "598s@65w75rpm",
+          "duration_secs": 598,
+          "avg_power": 65,
+          "max_power": 216,
+          "avg_hr": 95,
+          "max_hr": 118,
+          "avg_cadence": 74.58319,
+          "zone": 1,
+          "training_load": 1.679863,
+          "decoupling": -16.407284
+        },
+        {
+          "type": "WORK",
+          "label": "24s@1w10rpm",
+          "duration_secs": 24,
+          "avg_power": 1,
+          "max_power": 15,
+          "avg_hr": 86,
+          "max_hr": 89,
+          "avg_cadence": 9.625,
+          "zone": 1,
+          "training_load": 0.011841674,
+          "decoupling": 100.0
         }
       ]
     }
