@@ -1,45 +1,9 @@
 {
-  "generated_at": "2026-05-05T23:30:56.287374",
+  "generated_at": "2026-05-06T01:16:56.686320",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i143620440",
-      "date": "2026-04-28",
-      "type": "VirtualRide",
-      "name": "40' Recovery ride (31' 113/108) ROUVY - Buffalo Valley | Grand Teton | Wyoming",
-      "interval_summary": [
-        "1x 31m 113w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1860s@113w88rpm",
-          "duration_secs": 1860,
-          "avg_power": 113,
-          "max_power": 253,
-          "avg_hr": 108,
-          "max_hr": 126,
-          "avg_cadence": 87.80914,
-          "zone": 1,
-          "training_load": 10.921742,
-          "decoupling": 7.4462214
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 394,
-          "avg_power": 65,
-          "max_power": 175,
-          "avg_hr": 100,
-          "max_hr": 119,
-          "avg_cadence": 80.67005,
-          "zone": 1,
-          "training_load": 1.0802901,
-          "decoupling": -17.191898
-        }
-      ]
-    },
     {
       "activity_id": "i144095762",
       "date": "2026-04-29",
