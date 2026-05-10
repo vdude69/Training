@@ -70,14 +70,14 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-10T10:43:33.890643",
+    "last_updated": "2026-05-10T11:34:26.934161",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "modify",
+    "recommendation": "skip",
     "priority": 1,
     "signals": {
       "hrv": {
@@ -119,19 +119,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "hrv",
-        "rhr",
-        "sleep"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": null
-      }
-    },
-    "reason": "P1 acute overload (modify). TSB -29.7 < -25 with HRV -11.8% below baseline.",
+    "modification": null,
+    "reason": "P1 acute overload. TSB -30.14 < -30 with HRV -11.8% below baseline.",
     "alarm_refs": []
   },
   "history": {
@@ -163,10 +152,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.32,
-      "atl": 66.02,
-      "tsb": -29.7,
-      "ramp_rate": 3.94,
+      "ctl": 36.41,
+      "atl": 66.55,
+      "tsb": -30.14,
+      "ramp_rate": 4.04,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -419,7 +408,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-10T10:43:33.889367",
+    "calculation_timestamp": "2026-05-10T11:34:26.932980",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -434,8 +423,8 @@
   },
   "recent_activities": [
     {
-      "id": "18450031468",
-      "date": "2026-05-10T11:14:43",
+      "id": "18450209091",
+      "date": "2026-05-10T11:14:24",
       "type": "Unknown",
       "name": "",
       "duration_hours": 0.0,
