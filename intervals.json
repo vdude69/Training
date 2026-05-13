@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-05-12T23:42:45.260473",
+  "generated_at": "2026-05-13T21:22:14.303433",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
     {
-      "activity_id": "i145703408",
-      "date": "2026-05-05",
+      "activity_id": "i147929025",
+      "date": "2026-05-13",
       "type": "VirtualRide",
-      "name": "TrainingPeaks Virtual - Workout: TPV 70' HRbased ERG Z2 115-125bpm",
+      "name": "45' Z2 159/111 ROUVY - Power Control Workout",
       "interval_summary": [
-        "1x 10m8s 113w",
-        "1x 1h10m 155w",
-        "1x 9m58s 65w",
-        "1x 24s 1w"
+        "1x 45m 159w"
       ],
       "intervals": [
         {
-          "type": "WORK",
-          "label": "608s@113w76rpm",
-          "duration_secs": 608,
-          "avg_power": 113,
-          "max_power": 143,
-          "avg_hr": 88,
-          "max_hr": 95,
-          "avg_cadence": 75.69244,
+          "type": "RECOVERY",
+          "duration_secs": 600,
+          "avg_power": 98,
+          "max_power": 153,
+          "avg_hr": 78,
+          "max_hr": 98,
+          "avg_cadence": 74.91167,
           "zone": 1,
-          "training_load": 3.3360767,
-          "decoupling": 2.587286
+          "training_load": 3.678024,
+          "decoupling": -16.415213
         },
         {
           "type": "WORK",
-          "label": "4201s@155w80rpm",
-          "duration_secs": 4201,
-          "avg_power": 155,
-          "max_power": 369,
-          "avg_hr": 118,
-          "max_hr": 131,
-          "avg_cadence": 80.05641,
+          "label": "2700s@159w82rpm",
+          "duration_secs": 2700,
+          "avg_power": 159,
+          "max_power": 350,
+          "avg_hr": 111,
+          "max_hr": 124,
+          "avg_cadence": 81.796295,
           "zone": 2,
-          "training_load": 42.224884,
-          "decoupling": 14.362434
+          "training_load": 41.018387,
+          "decoupling": 7.8278465
         },
         {
-          "type": "WORK",
-          "label": "598s@65w75rpm",
-          "duration_secs": 598,
-          "avg_power": 65,
-          "max_power": 216,
-          "avg_hr": 95,
-          "max_hr": 118,
-          "avg_cadence": 74.58319,
+          "type": "RECOVERY",
+          "duration_secs": 609,
+          "avg_power": 90,
+          "max_power": 174,
+          "avg_hr": 98,
+          "max_hr": 120,
+          "avg_cadence": 79.30514,
           "zone": 1,
-          "training_load": 1.679863,
-          "decoupling": -16.407284
-        },
-        {
-          "type": "WORK",
-          "label": "24s@1w10rpm",
-          "duration_secs": 24,
-          "avg_power": 1,
-          "max_power": 15,
-          "avg_hr": 86,
-          "max_hr": 89,
-          "avg_cadence": 9.625,
-          "zone": 1,
-          "training_load": 0.011841674,
-          "decoupling": 100.0
+          "training_load": 3.635599,
+          "decoupling": 14.072637
         }
       ]
     }
