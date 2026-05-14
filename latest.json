@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-14T15:04:22.257278",
+    "last_updated": "2026-05-14T17:08:37.615790",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -159,8 +159,8 @@
       "ctl": 34.68,
       "atl": 45.27,
       "tsb": -10.59,
-      "ramp_rate": 3.65,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 4.12,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 232.9,
@@ -351,19 +351,22 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-05-14"
+      ],
+      "completed_dates": [
+        "2026-05-13"
+      ]
     },
     "phase_detection": {
       "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 0.6,
@@ -372,12 +375,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 3.3,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 1.01,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -388,9 +391,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 215,
@@ -412,13 +413,13 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-14T15:04:22.256000",
+    "calculation_timestamp": "2026-05-14T17:08:37.614575",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 26,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 58,
         "outdoor": 58
@@ -894,11 +895,72 @@
       "readiness": 82.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 110136574,
+      "date": "2026-05-14",
+      "name": "Maintenance | 45m with 3x3m @ 175W (Z3)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 29,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": "15m @120W | 3\u00d73m @175W / 3m rec | 12m @102W",
+      "description": "Warmup\n- 15m 100-140w\n\nMaintenance 3x\n- 3m 175w\n- 3m 110w\n\nCooldown\n- 12m 95-110w"
+    },
+    {
+      "id": 110136572,
+      "date": "2026-05-16",
+      "name": "FTP Test | 20-minute Protocol",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 95,
+      "duration_hours": 1.18,
+      "duration_formatted": "1h11m",
+      "workout_summary": "20m @120W | 3\u00d71m @210W / 1m rec | 5m @230W | 10m @125W | 20m @245W | 10m @100W",
+      "description": "Warmup\n- 20m 100-140w\n\nActivation 3x\n- 1m 210w 100rpm\n- 1m 110w\n\nPrep\n- 5m 230w blowout\n- 10m 125w recovery\n\nTest\n- 20m 230-260w ALL OUT\n\nCooldown\n- 10m 100w easy spin"
+    },
+    {
+      "id": 110136570,
+      "date": "2026-05-19",
+      "name": "Climbing Strength | 4x6m @ 190W (60 RPM)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 66,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h9m",
+      "workout_summary": "5m | 10m @160W | 2\u00d71m @210W / 1m rec | 4\u00d76m @190W / 4m rec | 10m",
+      "description": "Warmup\n- 5m Z1 easy spin\n- 10m Z2 building to 160w\n\nActivation 2x\n- 1m 210w 90rpm\n- 1m 110w easy\n\nMain Set 4x\n- 6m 190w 60rpm torque focus\n- 4m 140w 90rpm recovery\n\nCooldown\n- 10m Z1 easy spin"
+    },
+    {
+      "id": 110136569,
+      "date": "2026-05-20",
+      "name": "Easy Run | 30m @ Recovery Pace",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": null,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": ""
+    },
+    {
+      "id": 110136568,
+      "date": "2026-05-21",
+      "name": "Sweet Spot | 3x10m @ 195-200W (90% FTP)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": ""
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
