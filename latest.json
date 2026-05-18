@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-18T18:28:20.726002",
+    "last_updated": "2026-05-18T20:13:25.206631",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -386,7 +386,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.57,
+          "planned_tss_delta": 2.73,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
@@ -424,7 +424,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-18T18:28:20.724795",
+    "calculation_timestamp": "2026-05-18T20:13:25.205414",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -962,19 +962,19 @@
     {
       "id": 110164918,
       "date": "2026-05-19",
-      "name": "Torque | 4x8m @ 190W (60 RPM)",
+      "name": "Torque | 4x8m @ 203W (60 RPM)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 76,
-      "duration_hours": 1.32,
-      "duration_formatted": "1h19m",
-      "workout_summary": "15m @135W | 3\u00d71m @190W / 1m rec | 4\u00d78m @190W / 4m rec | 10m",
-      "description": "Warmup\n- 15m 135w 90rpm\n\nActivation 3x\n- 1m 190w 100rpm\n- 1m 120w easy\n\nMain Set 4x\n- 8m 190w 60rpm strength\n- 4m 125w 90rpm recovery\n\nCooldown\n- 10m Z1 easy"
+      "planned_tss": 86,
+      "duration_hours": 1.23,
+      "duration_formatted": "1h14m",
+      "workout_summary": "5m | 5m @178W | 3\u00d71m @240W / 1m rec | 4\u00d78m @203W / 4m rec | 10m",
+      "description": "Warmup\n- 5m Z1 easy\n- 5m 165-190w build\n\nActivation 3x\n- 1m 240w 95rpm\n- 1m 140w recovery\n\nMain Set 4x\n- 8m 203w 60rpm Low cadence torque\n- 4m 145w 90rpm recovery\n\nCooldown\n- 10m Z1 easy spin"
     },
     {
       "id": 110164919,
       "date": "2026-05-21",
-      "name": "Sweet Spot | 3x15m @ 195W (93% FTP)",
+      "name": "Sweet Spot | 3x15m @ 222W (93% FTP)",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 93,
