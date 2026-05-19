@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-19T01:48:59.998562",
+    "last_updated": "2026-05-19T06:02:53.949950",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -392,11 +392,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.18,
+          "planned_tss_delta": 7.34,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -430,7 +430,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-19T01:48:59.997288",
+    "calculation_timestamp": "2026-05-19T06:02:53.948670",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -933,35 +933,59 @@
     {
       "id": 110164918,
       "date": "2026-05-19",
-      "name": "Torque | 4x8m @ 203W (60 RPM)",
+      "name": "Recovery | 45m @ 100W (42% FTP)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 86,
-      "duration_hours": 1.23,
-      "duration_formatted": "1h14m",
-      "workout_summary": "5m | 5m @178W | 3\u00d71m @240W / 1m rec | 4\u00d78m @203W / 4m rec | 10m",
-      "description": "Warmup\n- 5m Z1 easy\n- 5m 165-190w build\n\nActivation 3x\n- 1m 240w 95rpm\n- 1m 140w recovery\n\nMain Set 4x\n- 8m 203w 60rpm Low cadence torque\n- 4m 145w 90rpm recovery\n\nCooldown\n- 10m Z1 easy spin"
+      "planned_tss": 16,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Main block\n- 45m 100w Recovery spin"
     },
     {
       "id": 110164919,
       "date": "2026-05-21",
-      "name": "Sweet Spot | 3x15m @ 222W (93% FTP)",
+      "name": "Torque | 4x8m @ 203W (60 RPM)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 93,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
-      "workout_summary": "5m @115W | 7m @150W | 2\u00d71m @200W / 1m rec | 3\u00d715m @195W / 5m rec | 9m @115W",
-      "description": "Warmup\n- 5m 115w easy\n- 7m 140-160w build\n\nActivation 2x\n- 1m 200w 95rpm\n- 1m 125w easy spin\n\nMain Set 3x\n- 15m 195w Sweet Spot\n- 5m 125w recovery\n\nCooldown\n- 9m 115w easy spin"
+      "planned_tss": 84,
+      "duration_hours": 1.28,
+      "duration_formatted": "1h17m",
+      "workout_summary": "10m | 5m @165W | 2\u00d71m @200W / 1m rec | 4\u00d78m @203W / 4m rec | 10m",
+      "description": "Warmup\n- 10m Z1 easy spin\n- 5m 150-180w build\n\nActivation 2x\n- 1m 200w 60rpm torque\n- 1m 140w recovery\n\nMain Set 4x\n- 8m 203w 60rpm Muscular Endurance\n- 4m 140w recovery\n\nCooldown\n- 10m Z1 easy"
+    },
+    {
+      "id": 111058562,
+      "date": "2026-05-23",
+      "name": "Sweet Spot | 3x15m @ 222W (93% FTP) + 1h Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 171,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "15m | 5m @200W | 3\u00d715m @222W / 5m rec | 1h | 10m",
+      "description": "Warmup\n- 15m Z1 build\n- 5m 200w build\n\nMain Set 3x\n- 15m 222w Sweet Spot\n- 5m 150w recovery\n\nEndurance\n- 60m 160w Z2 steady\n\nCooldown\n- 10m Z1 easy"
+    },
+    {
+      "id": 111059828,
+      "date": "2026-05-24",
+      "name": "Hills | 3.5h Outdoor ~1000m Ascent",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 142,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- 15m Z1 easy spin 90rpm\n\nMain Set\n- 180m 140-180w Z2 Aerobic. Use the climbs to practice strength: 60-75rpm at steady Z2 power.\n\nCooldown\n- 15m Z1 easy spin home"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 4,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 1.83,
