@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T06:49:06.244711",
+  "generated_at": "2026-05-21T10:36:01.720869",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -117,6 +117,58 @@
           "zone": 1,
           "training_load": 3.5484045,
           "decoupling": -2.416533
+        }
+      ]
+    },
+    {
+      "activity_id": "i150258176",
+      "date": "2026-05-21",
+      "type": "Ride",
+      "name": "Pedalata dell'ora di pranzo",
+      "interval_summary": [
+        "1x 10m57s 107w",
+        "1x 46m 154w",
+        "1x 10m56s 88w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "657s@107w74rpm",
+          "duration_secs": 657,
+          "avg_power": 107,
+          "max_power": 163,
+          "avg_hr": 86,
+          "max_hr": 105,
+          "avg_cadence": 73.805176,
+          "zone": 1,
+          "training_load": 5.0413036,
+          "decoupling": -18.870592
+        },
+        {
+          "type": "WORK",
+          "label": "2760s@154w85rpm",
+          "duration_secs": 2760,
+          "avg_power": 154,
+          "max_power": 343,
+          "avg_hr": 118,
+          "max_hr": 131,
+          "avg_cadence": 84.88515,
+          "zone": 2,
+          "training_load": 39.846764,
+          "decoupling": 10.600158
+        },
+        {
+          "type": "WORK",
+          "label": "656s@88w73rpm",
+          "duration_secs": 656,
+          "avg_power": 88,
+          "max_power": 172,
+          "avg_hr": 102,
+          "max_hr": 118,
+          "avg_cadence": 72.84146,
+          "zone": 1,
+          "training_load": 3.4709454,
+          "decoupling": 11.641243
         }
       ]
     }
