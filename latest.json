@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T18:27:08.166530",
+    "last_updated": "2026-05-21T20:18:42.445430",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -174,8 +174,8 @@
           "max_hr": 180,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 215,
-          "ftp_indoor": 215
+          "ftp": 238,
+          "ftp_indoor": 238
         },
         "run": {
           "lthr": 161,
@@ -375,7 +375,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 9.17,
+          "planned_tss_delta": 8.29,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -394,14 +394,14 @@
     "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
-      "current_ftp": 215,
+      "current_ftp": 238,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 215,
+      "current_ftp": 238,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -413,7 +413,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T18:27:08.165620",
+    "calculation_timestamp": "2026-05-21T20:18:42.444178",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -453,7 +453,7 @@
       "carbs_used": 144,
       "carbs_ingested": null,
       "variability_index": 1.0588236,
-      "decoupling": 8.62121,
+      "decoupling": 9.095052,
       "efficiency_factor": 1.2972972,
       "hrrc": null,
       "elevation_m": 214.60002,
@@ -902,7 +902,7 @@
       "name": "Alpine Sim | Torque + Sweet Spot progression",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 202,
+      "planned_tss": 170,
       "duration_hours": 2.85,
       "duration_formatted": "2h51m",
       "workout_summary": "20m | 3\u00d78m @203W / 4m rec | 3\u00d715m @222W / 5m rec | 45m | 10m",
@@ -914,7 +914,7 @@
       "name": "Hills | 3.5h Outdoor ~1000m Ascent",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 142,
+      "planned_tss": 141,
       "duration_hours": 3.5,
       "duration_formatted": "3h30m",
       "workout_summary": null,
