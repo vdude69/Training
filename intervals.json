@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-05-20T23:54:27.621921",
+  "generated_at": "2026-05-21T02:47:42.126136",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i147929025",
-      "date": "2026-05-13",
-      "type": "VirtualRide",
-      "name": "45' Z2 159/111 ROUVY - Power Control Workout",
-      "interval_summary": [
-        "1x 45m 159w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 600,
-          "avg_power": 98,
-          "max_power": 153,
-          "avg_hr": 78,
-          "max_hr": 98,
-          "avg_cadence": 74.91167,
-          "zone": 1,
-          "training_load": 3.678024,
-          "decoupling": -16.415213
-        },
-        {
-          "type": "WORK",
-          "label": "2700s@159w82rpm",
-          "duration_secs": 2700,
-          "avg_power": 159,
-          "max_power": 350,
-          "avg_hr": 111,
-          "max_hr": 124,
-          "avg_cadence": 81.796295,
-          "zone": 2,
-          "training_load": 41.018387,
-          "decoupling": 7.8278465
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 609,
-          "avg_power": 90,
-          "max_power": 174,
-          "avg_hr": 98,
-          "max_hr": 120,
-          "avg_cadence": 79.30514,
-          "zone": 1,
-          "training_load": 3.635599,
-          "decoupling": 14.072637
-        }
-      ]
-    },
     {
       "activity_id": "i148253839",
       "date": "2026-05-14",
