@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T20:18:42.445430",
+    "last_updated": "2026-05-21T21:55:51.642238",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -375,7 +375,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 8.29,
+          "planned_tss_delta": 7.38,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -413,7 +413,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T20:18:42.444178",
+    "calculation_timestamp": "2026-05-21T21:55:51.641298",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -897,28 +897,28 @@
   ],
   "planned_workouts": [
     {
-      "id": 111058562,
+      "id": 111600656,
       "date": "2026-05-23",
-      "name": "Alpine Sim | Torque + Sweet Spot progression",
+      "name": "Hills | 3.5h Outdoor ~1000m Ascent (Z2 focus)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 170,
-      "duration_hours": 2.85,
-      "duration_formatted": "2h51m",
-      "workout_summary": "20m | 3\u00d78m @203W / 4m rec | 3\u00d715m @222W / 5m rec | 45m | 10m",
-      "description": "Warmup\n- 20m Z1-Z2 build\n\nTorque Block 3x\n- 8m 203w 60rpm\n- 4m 140w recovery\n\nSweet Spot Block 3x\n- 15m 222w 90rpm\n- 5m 140w recovery\n\nEndurance\n- 45m 165w Z2\n\nCooldown\n- 10m Z1 easy"
+      "planned_tss": 150,
+      "duration_hours": 3.58,
+      "duration_formatted": "3h35m",
+      "workout_summary": null,
+      "description": "Main Set\n- 210m Z2 steady aerobic pressure on hills\n- 5m Z1 easy cooldown"
     },
     {
-      "id": 111059828,
+      "id": 111600657,
       "date": "2026-05-24",
-      "name": "Hills | 3.5h Outdoor ~1000m Ascent",
+      "name": "Alpine Sim | Torque + Sweet Spot progression (Key Workout)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 141,
-      "duration_hours": 3.5,
-      "duration_formatted": "3h30m",
-      "workout_summary": null,
-      "description": "Warmup\n- 15m Z1 easy spin 90rpm\n\nMain Set\n- 180m 140-180w Z2 Aerobic. Use the climbs to practice strength: 60-75rpm at steady Z2 power.\n\nCooldown\n- 15m Z1 easy spin home"
+      "planned_tss": 127,
+      "duration_hours": 1.93,
+      "duration_formatted": "1h56m",
+      "workout_summary": "2 \u00d7 10m | 3\u00d71m @203W / 1m rec | 4\u00d715m @220W / 5m rec | 10m",
+      "description": "Warmup\n- 10m Z1 easy\n- 10m Z2 build\n\nActivation 3x\n- 1m 203w 60rpm\n- 1m 130w easy\n\nMain Set 4x\n- 15m 220w Sweet Spot\n- 5m 130w recovery\n\nCooldown\n- 10m Z1 easy"
     }
   ],
   "workout_summary_stats": {
