@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 1.13,
       "total_training_formatted": "1h7m",
-      "total_activities": 5,
+      "total_activities": 6,
       "total_tss": 51
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-22T16:06:22.875637",
+    "last_updated": "2026-05-22T18:03:18.793425",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -6.4
+        "value": -9.3
       }
     },
     "signal_summary": {
@@ -138,7 +138,7 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 1.13,
-    "total_activities": 5,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 1.13,
@@ -148,7 +148,7 @@
       },
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 5,
         "tss": 0,
         "distance_km": 0.0
       }
@@ -156,10 +156,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.59,
-      "atl": 43.98,
-      "tsb": -6.39,
-      "ramp_rate": 3.11,
+      "ctl": 38.23,
+      "atl": 47.58,
+      "tsb": -9.35,
+      "ramp_rate": 3.74,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -375,8 +375,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 9.84,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 11.02,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 0.4,
@@ -413,12 +413,12 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-22T16:06:22.874463",
+    "calculation_timestamp": "2026-05-22T18:03:18.792170",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 5,
-      "activities_28d": 21,
+      "activities_7d": 6,
+      "activities_28d": 22,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 66,
@@ -427,6 +427,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18610632425",
+      "date": "2026-05-22T17:29:06",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "i150258176",
       "date": "2026-05-21T11:16:18",
@@ -899,41 +934,41 @@
     {
       "id": 111600656,
       "date": "2026-05-23",
-      "name": "Hills | 3.5h Outdoor ~1000m Ascent (Z2 focus)",
+      "name": "Hills | 3.5h with 3x15m Sweet Spot @ 215W (60 RPM) on climbs",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 150,
-      "duration_hours": 3.58,
-      "duration_formatted": "3h35m",
-      "workout_summary": null,
-      "description": "Main Set\n- 210m Z2 steady aerobic pressure on hills\n- 5m Z1 easy cooldown"
+      "planned_tss": 183,
+      "duration_hours": 3.5,
+      "duration_formatted": "3h30m",
+      "workout_summary": "1h15m | 3\u00d715m @215W / 8m rec | 1h1m | 5m",
+      "description": "Approach\n- 75m 160w 90rpm Z2 cruise\n\nClimbing 3x\n- 15m 215w 60rpm torque\n- 8m 140w 85rpm recovery\n\nReturn\n- 61m 160w 90rpm Z2 cruise\n\nCooldown\n- 5m Z1 easy"
     },
     {
       "id": 111600657,
       "date": "2026-05-24",
-      "name": "Alpine Sim | Torque + Sweet Spot progression (Key Workout)",
+      "name": "Recovery | 60m Z1 if time allows, otherwise Rest Day",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 127,
-      "duration_hours": 1.93,
-      "duration_formatted": "1h56m",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": "2 \u00d7 10m | 3\u00d71m @203W / 1m rec | 4\u00d715m @220W / 5m rec | 10m",
       "description": "Warmup\n- 10m Z1 easy\n- 10m Z2 build\n\nActivation 3x\n- 1m 203w 60rpm\n- 1m 130w easy\n\nMain Set 4x\n- 15m 220w Sweet Spot\n- 5m 130w recovery\n\nCooldown\n- 10m Z1 easy"
     }
   ],
   "workout_summary_stats": {
     "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 1.13,
     "total_training_formatted": "1h7m",
     "total_tss": 51,
-    "activities_count": 5,
+    "activities_count": 6,
     "avg_hrv": 35.3,
     "avg_resting_hr": 43.0
   },
