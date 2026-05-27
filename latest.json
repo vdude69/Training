@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T01:50:36.773926",
+    "last_updated": "2026-05-27T06:15:12.821378",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -95,7 +95,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "green",
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -13.1
+        "value": -6.0
       }
     },
     "signal_summary": {
@@ -156,11 +156,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.79,
-      "atl": 54.92,
-      "tsb": -13.13,
-      "ramp_rate": 3.59,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 40.02,
+      "atl": 46.03,
+      "tsb": -6.01,
+      "ramp_rate": 1.82,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 238.0,
@@ -199,10 +199,10 @@
       "weight_kg": 76.5,
       "resting_hr": 44,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 81.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -227,7 +227,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 82.0
     }
   },
   "derived_metrics": {
@@ -353,11 +353,12 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
-        "2026-05-26"
+        "2026-05-26",
+        "2026-05-27"
       ],
       "completed_dates": [
         "2026-05-21"
@@ -375,7 +376,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 8.59,
+          "planned_tss_delta": 8.74,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -413,13 +414,13 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-27T01:50:36.772695",
+    "calculation_timestamp": "2026-05-27T06:15:12.820129",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 4,
       "activities_28d": 19,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 71,
         "outdoor": 71
@@ -828,8 +829,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_score": 81.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -857,21 +858,21 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 82.0
     }
   ],
   "planned_workouts": [
     {
-      "id": 111856926,
-      "date": "2026-05-28",
+      "id": 112593160,
+      "date": "2026-05-27",
       "name": "Sweet Spot | 4x12m @ 222W (93% FTP)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 99,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "5m | 10m | 4\u00d712m @221W / 4m rec | 11m",
-      "description": "Warmup\n- 5m Z1 easy spin\n- 10m Z2 build\n\nMain Set 4x\n- 12m 222w 93% FTP Sweet Spot\n- 4m 120w recovery\n\nCooldown\n- 11m Z1 easy spin"
+      "planned_tss": 106,
+      "duration_hours": 1.58,
+      "duration_formatted": "1h35m",
+      "workout_summary": "15m @142W | 3\u00d71m @240W / 1m rec | 4\u00d712m @222W / 4m rec | 10m @130W",
+      "description": "Warmup\n- 15m 130-155w\n\nActivation 3x\n- 1m 240w\n- 1m 130w\n\nMain Set 4x\n- 12m 222w\n- 4m 130w\n\nCooldown\n- 10m 130w"
     },
     {
       "id": 111857043,
