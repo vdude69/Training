@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-04T00:27:17.908896",
+    "last_updated": "2026-06-04T05:21:16.297027",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 1
       },
       "acwr": {
         "status": "amber",
@@ -213,10 +213,10 @@
       "weight_kg": 76.5,
       "resting_hr": 41,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 1,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 85.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -241,7 +241,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 81.0
     }
   },
   "derived_metrics": {
@@ -373,9 +373,9 @@
           "planned_tss_delta": 5.6,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 1.28,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -408,7 +408,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-04T00:27:17.907651",
+    "calculation_timestamp": "2026-06-04T05:21:16.295773",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -841,8 +841,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 1,
+      "sleep_score": 85.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -870,7 +870,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 81.0
     }
   ],
   "planned_workouts": [
@@ -909,12 +909,24 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "description": ""
+    },
+    {
+      "id": 114081798,
+      "date": "2026-06-11",
+      "name": "Threshold | 3x10m @ 239W (100% FTP)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 90,
+      "duration_hours": 1.32,
+      "duration_formatted": "1h19m",
+      "workout_summary": "15m | 2\u00d71m @250W / 1m rec | 3\u00d710m @239W / 5m rec | 15m",
+      "description": "Warmup\n- 15m Z1-Z2 build\n\nActivation 2x\n- 1m 250w\n- 1m Z1 recovery\n\nMain Set 3x\n- 10m 239w threshold\n- 5m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 3,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 1
