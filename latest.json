@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-06T00:01:50.996444",
+    "last_updated": "2026-06-06T04:18:39.689312",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 3
       },
       "acwr": {
         "status": "amber",
@@ -213,10 +213,10 @@
       "weight_kg": 76.5,
       "resting_hr": 41,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 3,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 66.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -241,7 +241,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 52.0
     }
   },
   "derived_metrics": {
@@ -369,9 +369,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.28,
+          "next_week_load": 4.05,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -404,7 +404,7 @@
     "p_max": 795,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-06T00:01:50.995269",
+    "calculation_timestamp": "2026-06-06T04:18:39.688064",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -837,8 +837,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 3,
+      "sleep_score": 66.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -866,7 +866,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 52.0
     }
   ],
   "planned_workouts": [
@@ -881,12 +881,24 @@
       "duration_formatted": "1h19m",
       "workout_summary": "15m | 2\u00d71m @250W / 1m rec | 3\u00d710m @239W / 5m rec | 15m",
       "description": "Warmup\n- 15m Z1-Z2 build\n\nActivation 2x\n- 1m 250w\n- 1m Z1 recovery\n\nMain Set 3x\n- 10m 239w threshold\n- 5m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
+    },
+    {
+      "id": 114421203,
+      "date": "2026-06-13",
+      "name": "Climbing Strength | 3.5h with 2x30m Tempo @ 195W (82% FTP) 60-70 RPM",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 195,
+      "duration_hours": 4.0,
+      "duration_formatted": "4h",
+      "workout_summary": "20m | 2\u00d730m @195W / 20m rec | 1h50m | 10m",
+      "description": "Warmup\n- 20m Z1-Z2 easy spin\n\nMain Set 2x\n- 30m 195w 60-70rpm seated climbing\n- 20m Z2 recovery spin\n\nEndurance Finish\n- 110m Z2 steady aerobic\n\nCooldown\n- 10m Z1 easy spin"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 2,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
