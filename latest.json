@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T16:53:23.442666",
+    "last_updated": "2026-06-14T18:09:06.916305",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -363,9 +363,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 17.07,
+          "next_week_load": 41.79,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 1.0
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -398,7 +398,7 @@
     "p_max": 794,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-14T16:53:23.441470",
+    "calculation_timestamp": "2026-06-14T18:09:06.915070",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -865,19 +865,31 @@
   ],
   "planned_workouts": [
     {
-      "id": 115947826,
+      "id": 116047206,
       "date": "2026-06-16",
-      "name": "Recovery | 45min @ 100W",
+      "name": "Endurance | 75min @ 140W",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 50,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "Main Set\n- 45m 100w 85-90rpm"
+      "description": "Main block\n- 5m Z1\n- 65m Z2\n- 5m Z1"
     },
     {
-      "id": 115947827,
+      "id": 116047208,
+      "date": "2026-06-17",
+      "name": "Alpe Prep | High Torque Drills",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 62,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "15m | 3\u00d710m @195W / 5m rec | 15m",
+      "description": "Warmup\n- 15m Z1-Z2 build\n\nMain Set 3x\n- 10m 195w 60-70rpm\n- 5m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
+    },
+    {
+      "id": 116047212,
       "date": "2026-06-18",
       "name": "Recovery | 45min @ 100W",
       "type": "WORKOUT",
@@ -886,52 +898,52 @@
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
-      "description": "Main Set\n- 45m 100w 85-90rpm"
+      "description": "Main block\n- 45m 100w 90rpm"
     },
     {
-      "id": 115947828,
+      "id": 116047221,
       "date": "2026-06-19",
-      "name": "Endurance | 90min @ 140W",
+      "name": "Endurance | 105min @ 140W",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 52,
+      "planned_tss": 71,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
+      "workout_summary": null,
+      "description": "Main block\n- 5m Z1\n- 95m Z2\n- 5m Z1"
+    },
+    {
+      "id": 116047227,
+      "date": "2026-06-20",
+      "name": "Alpe Sim | 2x20m Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 104,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description": "Main Set\n- 90m 140w 85-95rpm"
+      "workout_summary": "15m | 2\u00d720m @235W / 10m rec | 15m",
+      "description": "Warmup\n- 15m Z1-Z2 build\n\nMain Set 2x\n- 20m 235w threshold\n- 10m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
     },
     {
-      "id": 115947830,
-      "date": "2026-06-20",
-      "name": "Recovery | 60min @ 100W",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 18,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description": "Main Set\n- 60m 100w 85-90rpm"
-    },
-    {
-      "id": 115947831,
+      "id": 116047231,
       "date": "2026-06-21",
-      "name": "Endurance | 2h @ 140W",
+      "name": "Endurance | 3h @ 140W",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 69,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 104,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
-      "description": "Main Set\n- 120m 140w 85-95rpm"
+      "description": "Main block\n- 180m Z2 140w"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
