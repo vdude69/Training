@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T19:29:13.151970",
+    "last_updated": "2026-06-17T21:29:37.083240",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -333,15 +333,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. Insufficient data in one or both windows."
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 0,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-06-17"
-      ],
-      "completed_dates": []
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Build",
@@ -355,11 +352,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 51.27,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 42.29,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 11.07,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -393,13 +390,13 @@
     "p_max": 794,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T19:29:13.150699",
+    "calculation_timestamp": "2026-06-17T21:29:37.081995",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 19,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 92,
         "outdoor": 92
@@ -860,18 +857,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 116047208,
-      "date": "2026-06-17",
-      "name": "Alpe Prep | High Torque Drills",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": "15m | 3\u00d710m @195W / 5m rec | 15m",
-      "description": "Warmup\n- 15m Z1-Z2 build\n\nMain Set 3x\n- 10m 195w 60-70rpm\n- 5m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
-    },
-    {
       "id": 116047212,
       "date": "2026-06-18",
       "name": "Recovery | 45min @ 100W",
@@ -933,9 +918,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 5,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 3
