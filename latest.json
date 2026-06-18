@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 0.0,
       "total_training_formatted": "0s",
-      "total_activities": 4,
+      "total_activities": 5,
       "total_tss": 0
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-18T06:26:31.055628",
+    "last_updated": "2026-06-18T10:52:48.824100",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -116,13 +116,13 @@
         "value": null
       },
       "tsb": {
-        "status": "green",
-        "value": -9.0
+        "status": "amber",
+        "value": -25.0
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 1,
+      "green": 0,
+      "amber": 2,
       "red": 0,
       "unavailable": 4
     },
@@ -134,7 +134,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 0 green, 2 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -148,11 +148,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.0,
-    "total_activities": 4,
+    "total_activities": 5,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 4,
+        "count": 5,
         "tss": 0,
         "distance_km": 0.0
       }
@@ -160,11 +160,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 53.89,
-      "atl": 62.88,
-      "tsb": -8.99,
-      "ramp_rate": 6.72,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 57.33,
+      "atl": 82.32,
+      "tsb": -24.99,
+      "ramp_rate": 9.54,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 237.8,
@@ -333,15 +333,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. Insufficient data in one or both windows."
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 0,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-06-18"
-      ],
-      "completed_dates": []
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Build",
@@ -355,11 +352,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 52.86,
+          "planned_tss_delta": 50.51,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 11.07,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -393,13 +390,13 @@
     "p_max": 794,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-18T06:26:31.054348",
+    "calculation_timestamp": "2026-06-18T10:52:48.822860",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 4,
-      "activities_28d": 18,
-      "planned_workouts_7d": 1,
+      "activities_7d": 5,
+      "activities_28d": 19,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 93,
         "outdoor": 93
@@ -407,6 +404,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "18968437423",
+      "date": "2026-06-18T08:02:19",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "18960633318",
       "date": "2026-06-17T18:00:38",
@@ -825,18 +857,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 116047212,
-      "date": "2026-06-18",
-      "name": "Recovery | 45min @ 100W",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 13,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "description": "Main block\n- 45m 100w 90rpm"
-    },
-    {
       "id": 116047221,
       "date": "2026-06-19",
       "name": "Endurance | 105min @ 140W",
@@ -886,18 +906,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 4,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
     "total_training_formatted": "0s",
     "total_tss": 0,
-    "activities_count": 4,
+    "activities_count": 5,
     "avg_hrv": 37.2,
     "avg_resting_hr": 46.0
   },
