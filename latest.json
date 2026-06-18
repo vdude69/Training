@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-18T14:06:44.899086",
+    "last_updated": "2026-06-18T17:26:15.537157",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -87,24 +87,24 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 37.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 43.0,
+        "baseline_7d": 38.0,
+        "delta_pct": 13.2
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 46,
-        "delta_bpm": null
+        "status": "green",
+        "value": 44,
+        "baseline_7d": 45.7,
+        "delta_bpm": -1.7
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.9,
         "quality": 2
       },
       "acwr": {
@@ -112,8 +112,8 @@
         "value": 0.0
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.18
       },
       "tsb": {
         "status": "amber",
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 2,
+      "green": 3,
+      "amber": 3,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -133,8 +133,19 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 0 green, 2 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "sleep",
+        "acwr",
+        "tsb"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P2 signal count. 3 amber (sleep, acwr, tsb) >= threshold 3.",
     "alarm_refs": []
   },
   "history": {
@@ -201,11 +212,11 @@
     },
     "current_metrics": {
       "weight_kg": 76.5,
-      "resting_hr": 43,
-      "hrv": null,
+      "resting_hr": 44,
+      "hrv": 43.0,
       "sleep_quality": 2,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.9,
+      "sleep_formatted": "6h54m",
       "sleep_score": 80.0,
       "fatigue": null,
       "soreness": null,
@@ -235,13 +246,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 37.2,
-    "rhr_baseline_7d": 46,
-    "hrv_baseline_28d": 36.3,
+    "recovery_index": 1.18,
+    "hrv_baseline_7d": 38.0,
+    "rhr_baseline_7d": 45.7,
+    "hrv_baseline_28d": 36.5,
     "rhr_baseline_28d": 44.7,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_hrv": 43.0,
+    "latest_rhr": 44,
     "acwr": 0.0,
     "acwr_interpretation": "undertraining",
     "monotony": null,
@@ -253,7 +264,7 @@
     "multi_sport_detected": false,
     "strain": null,
     "stress_tolerance": null,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.0,
     "tss_7d_total": 0.0,
     "tss_28d_total": 29.0,
     "zone_distribution_7d": {
@@ -352,7 +363,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 50.51,
+          "planned_tss_delta": 33.13,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": 11.07,
@@ -390,10 +401,10 @@
     "p_max": 794,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-18T14:06:44.897852",
+    "calculation_timestamp": "2026-06-18T17:26:15.535899",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 19,
       "planned_workouts_7d": 0,
@@ -818,15 +829,15 @@
     {
       "date": "2026-06-18",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 44,
+      "hrv_rmssd": 43.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.9,
+      "sleep_formatted": "6h54m",
       "sleep_quality": 2,
       "sleep_score": 80.0,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 53.25,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -857,40 +868,40 @@
   ],
   "planned_workouts": [
     {
-      "id": 116047221,
+      "id": 116973999,
       "date": "2026-06-19",
-      "name": "Endurance | 105min @ 140W",
+      "name": "Recovery Spin | 45min @ 110W",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 71,
-      "duration_hours": 1.75,
-      "duration_formatted": "1h45m",
+      "planned_tss": 16,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
-      "description": "Main block\n- 5m Z1\n- 95m Z2\n- 5m Z1"
+      "description": "Main block\n- 45m 110w"
     },
     {
-      "id": 116047227,
+      "id": 116973927,
       "date": "2026-06-20",
+      "name": "Endurance | 2h @ 140W",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 67,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "Main block\n- 5m Z1\n- 110m 140w\n- 5m Z1"
+    },
+    {
+      "id": 116973942,
+      "date": "2026-06-21",
       "name": "Alpe Sim | 2x20m Threshold",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "15m | 2\u00d720m @235W / 10m rec | 15m",
-      "description": "Warmup\n- 15m Z1-Z2 build\n\nMain Set 2x\n- 20m 235w threshold\n- 10m 140w recovery\n\nCooldown\n- 15m Z1 easy spin"
-    },
-    {
-      "id": 116047231,
-      "date": "2026-06-21",
-      "name": "Endurance | 3h @ 140W",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "description": "Main block\n- 180m Z2 140w"
+      "planned_tss": 100,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": "10m | 5m | 2\u00d720m @240W / 5m rec | 15m",
+      "description": "Warmup\n- 10m Z1\n- 5m Z2 build\n\nMain Set 2x\n- 20m 240w threshold\n- 5m 150w recovery\n\nCooldown\n- 15m Z1"
     },
     {
       "id": 116393180,
@@ -918,8 +929,8 @@
     "total_training_formatted": "0s",
     "total_tss": 0,
     "activities_count": 5,
-    "avg_hrv": 37.2,
-    "avg_resting_hr": 46.0
+    "avg_hrv": 38.0,
+    "avg_resting_hr": 45.7
   },
   "race_calendar": {
     "next_race": null,
