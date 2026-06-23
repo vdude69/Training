@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T05:42:38.152249",
+    "last_updated": "2026-06-23T08:46:51.206504",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -335,12 +335,10 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 1,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-06-19",
-        "2026-06-20",
         "2026-06-23"
       ],
       "completed_dates": []
@@ -357,11 +355,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 28.12,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 15.21,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -395,13 +393,13 @@
     "p_max": 794,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T05:42:38.151020",
+    "calculation_timestamp": "2026-06-23T08:46:51.205337",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 20,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 98,
         "outdoor": 98
@@ -897,18 +895,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 116393180,
-      "date": "2026-06-23",
-      "name": "Alpe Prep | 3x15m Threshold",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 107,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
-      "workout_summary": "10m | 5m @215W | 3\u00d715m @235W / 5m rec | 10m",
-      "description": "Warmup\n- 10m Z1\n- 5m 215w 90rpm\n\nMain Set 3x\n- 15m 235w 75-80rpm\n- 5m 140w\n\nCooldown\n- 10m Z1"
-    },
-    {
       "id": 117218078,
       "date": "2026-06-23",
       "name": "SFR 4x5'",
@@ -934,9 +920,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 2,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
