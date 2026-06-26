@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-26T08:55:30.537054",
+    "last_updated": "2026-06-26T11:41:46.876121",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -336,9 +336,7 @@
     "phase_detection": {
       "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 5.03,
@@ -347,11 +345,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 48.76,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -363,9 +361,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 238,
@@ -387,7 +383,7 @@
     "p_max": 792,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-26T08:55:30.535834",
+    "calculation_timestamp": "2026-06-26T11:41:46.874959",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -887,14 +883,39 @@
       "readiness": 59.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 118786184,
+      "date": "2026-06-27",
+      "name": "Alpe Prep: 2x20m Sweet Spot + Torque",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 79,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "10m | 5m | 2\u00d720m @215W / 5m rec | 10m",
+      "description": "Warmup\n- 10m Z1\n- 5m Z2 build\n\nMain Set 2x\n- 20m 215w 70rpm\n- 5m 140w recovery\n\nCooldown\n- 10m Z1"
+    },
+    {
+      "id": 118786185,
+      "date": "2026-06-28",
+      "name": "Endurance + Climbing Torque",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 123,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "description": "Main Block\n- 30m Z2\n- 5m 215w 60rpm\n- 20m Z2\n- 5m 215w 60rpm\n- 20m Z2\n- 5m 215w 60rpm\n- 20m Z2\n- 5m 215w 60rpm\n- 40m Z2"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
