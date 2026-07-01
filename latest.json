@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-01T05:03:19.709159",
+    "last_updated": "2026-07-01T08:54:57.769763",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -95,7 +95,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "unavailable",
@@ -153,14 +153,14 @@
       "ctl": 55.9,
       "atl": 52.29,
       "tsb": 3.61,
-      "ramp_rate": -0.23,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 0.48,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 237.0,
-      "w_prime": 19940,
-      "w_prime_kj": 19.9,
-      "p_max": 791,
+      "eftp": 237.3,
+      "w_prime": 19960,
+      "w_prime_kj": 20.0,
+      "p_max": 792,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -193,10 +193,10 @@
       "weight_kg": 76.5,
       "resting_hr": 44,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 83.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -221,7 +221,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 78.0
     }
   },
   "derived_metrics": {
@@ -325,22 +325,21 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-25",
         "2026-06-27",
-        "2026-06-28"
+        "2026-06-28",
+        "2026-07-01"
       ],
       "completed_dates": []
     },
     "phase_detection": {
       "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 5.03,
@@ -349,11 +348,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 31.86,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -365,9 +364,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 238,
@@ -383,19 +380,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 237.0,
-    "w_prime": 19940,
-    "w_prime_kj": 19.9,
-    "p_max": 791,
+    "eftp": 237.3,
+    "w_prime": 19960,
+    "w_prime_kj": 20.0,
+    "p_max": 792,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-01T05:03:19.707937",
+    "calculation_timestamp": "2026-07-01T08:54:57.768622",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 20,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 106,
         "outdoor": 106
@@ -822,8 +819,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_score": 83.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -851,17 +848,66 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 78.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 119852525,
+      "date": "2026-07-01",
+      "name": "Strict Recovery Spin | 35min @ 105W",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 11,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "description": "Main Set\n- 35m 100-105w 90-95rpm"
+    },
+    {
+      "id": 119851884,
+      "date": "2026-07-03",
+      "name": "Endurance | 90min @ 155W (65% FTP)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 61,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Main Set\n- 5m Z1\n- 80m 155w\n- 5m Z1"
+    },
+    {
+      "id": 119852675,
+      "date": "2026-07-04",
+      "name": "Saturday Opener | 60min with 3x1min Threshold Bursts",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 39,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m | 3\u00d71m @235W / 2m rec | 30m | 6m",
+      "description": "Warmup\n- 15m Z1\n\nActivation 3x\n- 1m 235w target Sunday power\n- 2m Z1 recovery\n\nMain Set\n- 30m 155w steady Z2\n\nCooldown\n- 6m Z1"
+    },
+    {
+      "id": 119852049,
+      "date": "2026-07-05",
+      "name": "Alpe Prep | 2x20min @ 235W (98% FTP)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 109,
+      "duration_hours": 1.6,
+      "duration_formatted": "1h36m",
+      "workout_summary": "2 \u00d7 10m | 2\u00d71m @240W / 2m rec | 2\u00d720m @235W / 10m rec | 10m",
+      "description": "Warmup\n- 10m Z1\n- 10m Z2\n\nActivation 2x\n- 1m 240w\n- 2m Z1\n\nMain Set 2x\n- 20m 235w\n- 10m 130w recovery\n\nCooldown\n- 10m Z1"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 4,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
