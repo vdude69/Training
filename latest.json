@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-01T18:56:33.422952",
+    "last_updated": "2026-07-01T20:46:38.405829",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -1.6
+        "value": -0.5
       }
     },
     "signal_summary": {
@@ -159,10 +159,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 57.03,
-      "atl": 58.68,
-      "tsb": -1.65,
-      "ramp_rate": 0.9,
+      "ctl": 56.77,
+      "atl": 57.22,
+      "tsb": -0.45,
+      "ramp_rate": 0.64,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -334,14 +334,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-06-25",
         "2026-06-27",
-        "2026-06-28",
-        "2026-07-01"
+        "2026-06-28"
       ],
       "completed_dates": []
     },
@@ -357,11 +356,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 31.86,
+          "planned_tss_delta": 30.27,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -395,13 +394,13 @@
     "p_max": 792,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-01T18:56:33.421699",
+    "calculation_timestamp": "2026-07-01T20:46:38.404609",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 21,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 106,
         "outdoor": 106
@@ -897,18 +896,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 119852525,
-      "date": "2026-07-01",
-      "name": "Strict Recovery Spin | 35min @ 105W",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 11,
-      "duration_hours": 0.58,
-      "duration_formatted": "35m",
-      "workout_summary": null,
-      "description": "Main Set\n- 35m 100-105w 90-95rpm"
-    },
-    {
       "id": 119851884,
       "date": "2026-07-03",
       "name": "Endurance | 90min @ 155W (65% FTP)",
@@ -946,12 +933,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
+    "attempted": 3,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
