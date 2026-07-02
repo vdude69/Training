@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-02T08:47:19.199270",
+    "last_updated": "2026-07-02T11:29:12.023963",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -349,9 +349,9 @@
           "planned_tss_delta": 26.79,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 28.76,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -384,7 +384,7 @@
     "p_max": 791,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-02T08:47:19.198393",
+    "calculation_timestamp": "2026-07-02T11:29:12.022798",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -873,15 +873,63 @@
       "duration_formatted": "1h36m",
       "workout_summary": "2 \u00d7 10m | 2\u00d71m @240W / 2m rec | 2\u00d720m @235W / 10m rec | 10m",
       "description": "Warmup\n- 10m Z1\n- 10m Z2\n\nActivation 2x\n- 1m 240w\n- 2m Z1\n\nMain Set 2x\n- 20m 235w\n- 10m 130w recovery\n\nCooldown\n- 10m Z1"
+    },
+    {
+      "id": 120085792,
+      "date": "2026-07-06",
+      "name": "Recovery Spin | 45m Z1",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 18,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "Main Block\n- 45m Z1 easy spin"
+    },
+    {
+      "id": 120085793,
+      "date": "2026-07-07",
+      "name": "Alpe Torque | 3x15min @ 88% FTP",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 85,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "10m | 5m | 3\u00d715m @210W / 5m rec | 10m",
+      "description": "Warmup\n- 10m Z1\n- 5m Z2 build\n\nMain Set 3x\n- 15m 210w 60-70rpm torque\n- 5m 130w recovery\n\nCooldown\n- 10m Z1"
+    },
+    {
+      "id": 120085795,
+      "date": "2026-07-08",
+      "name": "Z2 Endurance | 90m Aerobic Base",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 64,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Main Block\n- 90m 155w steady Z2"
+    },
+    {
+      "id": 120085796,
+      "date": "2026-07-09",
+      "name": "Sustained Threshold | 3x15min @ 100% FTP",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 111,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "2 \u00d7 10m | 3\u00d715m @239W / 5m rec | 10m",
+      "description": "Warmup\n- 10m Z1\n- 10m Z2 build\n\nMain Set 3x\n- 15m 239w threshold\n- 5m 130w recovery\n\nCooldown\n- 10m Z1"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 6,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
