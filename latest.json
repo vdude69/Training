@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-03T04:06:06.311698",
+    "last_updated": "2026-07-03T07:33:59.148606",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -95,7 +95,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "unavailable",
@@ -193,10 +193,10 @@
       "weight_kg": 76.5,
       "resting_hr": 45,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 72.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -221,7 +221,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 72.0
     }
   },
   "derived_metrics": {
@@ -346,7 +346,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 35.72,
+          "planned_tss_delta": 33.31,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": 28.76,
@@ -384,7 +384,7 @@
     "p_max": 791,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-03T04:06:06.310475",
+    "calculation_timestamp": "2026-07-03T07:33:59.147371",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -817,8 +817,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_score": 72.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -846,12 +846,12 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 72.0
     }
   ],
   "planned_workouts": [
     {
-      "id": 119852675,
+      "id": 120284862,
       "date": "2026-07-04",
       "name": "Saturday Opener | 60min with 3x1min Threshold Bursts",
       "type": "WORKOUT",
@@ -859,20 +859,20 @@
       "planned_tss": 39,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
-      "workout_summary": "15m | 3\u00d71m @235W / 2m rec | 30m | 6m",
-      "description": "Warmup\n- 15m Z1\n\nActivation 3x\n- 1m 235w target Sunday power\n- 2m Z1 recovery\n\nMain Set\n- 30m 155w steady Z2\n\nCooldown\n- 6m Z1"
+      "workout_summary": "10m | 30m | 3\u00d71m / 2m rec | 11m",
+      "description": "Warmup\n- 10m Z1 easy spin\n\nMain Set\n- 30m Z2 aerobic base\n\nOpener Bursts 3x\n- 1m Z4 95-100rpm\n- 2m Z1 recovery\n\nCooldown\n- 11m Z1 easy"
     },
     {
-      "id": 119852049,
+      "id": 120284870,
       "date": "2026-07-05",
       "name": "Alpe Prep | 2x20min @ 235W (98% FTP)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 109,
-      "duration_hours": 1.6,
-      "duration_formatted": "1h36m",
-      "workout_summary": "2 \u00d7 10m | 2\u00d71m @240W / 2m rec | 2\u00d720m @235W / 10m rec | 10m",
-      "description": "Warmup\n- 10m Z1\n- 10m Z2\n\nActivation 2x\n- 1m 240w\n- 2m Z1\n\nMain Set 2x\n- 20m 235w\n- 10m 130w recovery\n\nCooldown\n- 10m Z1"
+      "planned_tss": 99,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": "10m | 5m | 2\u00d71m @235W / 1m rec | 2\u00d720m @235W / 5m rec | 11m",
+      "description": "Warmup\n- 10m Z1 easy spin\n- 5m Z2 build\n\nActivation 2x\n- 1m Z4 235w\n- 1m Z1 recovery\n\nMain Set 2x\n- 20m 235w threshold\n- 5m 160w recovery\n\nCooldown\n- 11m Z1 easy"
     },
     {
       "id": 120085792,
