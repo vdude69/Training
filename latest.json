@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T05:50:42.929266",
+    "last_updated": "2026-07-06T10:05:58.496395",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -11.4
+        "value": -2.3
       }
     },
     "signal_summary": {
@@ -150,17 +150,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 59.08,
-      "atl": 70.49,
-      "tsb": -11.41,
-      "ramp_rate": 1.39,
+      "ctl": 56.8,
+      "atl": 59.06,
+      "tsb": -2.26,
+      "ramp_rate": -0.88,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 236.6,
-      "w_prime": 19900,
+      "eftp": 236.1,
+      "w_prime": 19860,
       "w_prime_kj": 19.9,
-      "p_max": 790,
+      "p_max": 788,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -347,11 +347,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 32.9,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 20.07,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -379,13 +379,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 236.6,
-    "w_prime": 19900,
+    "eftp": 236.1,
+    "w_prime": 19860,
     "w_prime_kj": 19.9,
-    "p_max": 790,
+    "p_max": 788,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T05:50:42.928047",
+    "calculation_timestamp": "2026-07-06T10:05:58.495235",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -829,28 +829,16 @@
       "description": "Main Block\n- 45m Z1 easy spin"
     },
     {
-      "id": 120085793,
-      "date": "2026-07-07",
-      "name": "Alpe Torque | 3x15min @ 88% FTP",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 85,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
-      "workout_summary": "10m | 5m | 3\u00d715m @210W / 5m rec | 10m",
-      "description": "Warmup\n- 10m Z1\n- 5m Z2 build\n\nMain Set 3x\n- 15m 210w 60-70rpm torque\n- 5m 130w recovery\n\nCooldown\n- 10m Z1"
-    },
-    {
-      "id": 120085795,
+      "id": 120878245,
       "date": "2026-07-08",
-      "name": "Z2 Endurance | 90m Aerobic Base",
+      "name": "Recovery Spin | 60m Z1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 64,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 25,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
-      "description": "Main Block\n- 90m 155w steady Z2"
+      "description": "Main Set\n- 10m Z1 easy\n- 40m Z1 120w\n- 10m Z1 easy"
     },
     {
       "id": 120085796,
@@ -878,9 +866,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 4,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 2
