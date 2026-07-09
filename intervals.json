@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T04:27:35.523755",
+  "generated_at": "2026-07-09T07:59:15.588627",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -58,6 +58,44 @@
           "avg_hr": 53,
           "max_hr": 55,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i164097254",
+      "date": "2026-07-09",
+      "type": "VirtualRide",
+      "name": "Sustained Threshold | 3x15min @ 100% FTP",
+      "interval_summary": [
+        "1x 3m53s 68w",
+        "1x 1h29m 203w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "233s@68w78rpm",
+          "duration_secs": 233,
+          "avg_power": 68,
+          "max_power": 148,
+          "avg_hr": 93,
+          "max_hr": 107,
+          "avg_cadence": 77.957085,
+          "zone": 1,
+          "training_load": 0.7312729,
+          "decoupling": -34.536842
+        },
+        {
+          "type": "WORK",
+          "label": "5357s@203w83rpm",
+          "duration_secs": 5357,
+          "avg_power": 203,
+          "max_power": 359,
+          "avg_hr": 148,
+          "max_hr": 164,
+          "avg_cadence": 82.92745,
+          "zone": 3,
+          "training_load": 111.31422,
+          "decoupling": 7.0397487
         }
       ]
     }
