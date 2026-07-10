@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T15:43:54.620058",
+  "generated_at": "2026-07-10T17:28:46.204416",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -96,6 +96,43 @@
           "zone": 3,
           "training_load": 111.31422,
           "decoupling": 7.0397487
+        }
+      ]
+    },
+    {
+      "activity_id": "i164516343",
+      "date": "2026-07-10",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Pacing with Oli Obsidian",
+      "interval_summary": [
+        "1x 2m45s 76w",
+        "1x 6m20s 65w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "165s@76w93rpm",
+          "duration_secs": 165,
+          "avg_power": 76,
+          "max_power": 130,
+          "avg_hr": 81,
+          "max_hr": 87,
+          "avg_cadence": 93.048485,
+          "zone": 1,
+          "training_load": 0.46736342,
+          "decoupling": 0.6323631
+        },
+        {
+          "type": "WORK",
+          "label": "380s@65w86rpm",
+          "duration_secs": 380,
+          "avg_power": 65,
+          "max_power": 130,
+          "avg_hr": 79,
+          "max_hr": 85,
+          "avg_cadence": 86.09146,
+          "zone": 1,
+          "training_load": 0.32309687
         }
       ]
     }
