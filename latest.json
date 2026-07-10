@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-10T13:23:41.095311",
+    "last_updated": "2026-07-10T15:43:54.620191",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -103,9 +103,9 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": 2
+        "status": "red",
+        "hours": 0.62,
+        "quality": 1
       },
       "acwr": {
         "status": "red",
@@ -119,8 +119,8 @@
     "signal_summary": {
       "green": 0,
       "amber": 0,
-      "red": 1,
-      "unavailable": 4
+      "red": 2,
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Build",
@@ -205,10 +205,10 @@
       "weight_kg": 76.5,
       "resting_hr": 42,
       "hrv": null,
-      "sleep_quality": 2,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": 82.0,
+      "sleep_quality": 1,
+      "sleep_hours": 0.62,
+      "sleep_formatted": "37m",
+      "sleep_score": 85.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -233,7 +233,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 85.0
+      "readiness": 88.0
     }
   },
   "derived_metrics": {
@@ -425,7 +425,7 @@
     "p_max": 787,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-10T13:23:41.094056",
+    "calculation_timestamp": "2026-07-10T15:43:54.618932",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1124,10 +1124,10 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": 2,
-      "sleep_score": 82.0,
+      "sleep_hours": 0.62,
+      "sleep_formatted": "37m",
+      "sleep_quality": 1,
+      "sleep_score": 85.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1155,7 +1155,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 85.0
+      "readiness": 88.0
     }
   ],
   "planned_workouts": [
