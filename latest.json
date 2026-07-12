@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T14:12:42.974530",
+    "last_updated": "2026-07-12T15:16:04.915958",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -391,9 +391,9 @@
           "planned_tss_delta": 173.07,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 30.31,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -426,7 +426,7 @@
     "p_max": 787,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T14:12:42.973355",
+    "calculation_timestamp": "2026-07-12T15:16:04.914694",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1310,15 +1310,75 @@
       "duration_formatted": "4h",
       "workout_summary": "20m | 2\u00d730m @235W / 20m rec | 1h40m | 20m",
       "description": "Warmup\n- 20m Z2\n\nMain Set 2x\n- 30m 235w 70rpm\n- 20m Z2\n\nEndurance\n- 100m Z2\n\nCooldown\n- 20m Z1"
+    },
+    {
+      "id": 122268059,
+      "date": "2026-07-14",
+      "name": "Alpe Sharpening 2x8min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 50,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
+      "workout_summary": "15m | 2\u00d78m @235W / 5m rec | 9m",
+      "description": "Warmup\n- 15m Z1-Z2\n\nMain Set 2x\n- 8m 235w 70rpm\n- 5m Z1\n\nCooldown\n- 9m Z1"
+    },
+    {
+      "id": 122268060,
+      "date": "2026-07-15",
+      "name": "Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 12,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "description": "Main Set\n- 30m Z1 spinning"
+    },
+    {
+      "id": 122268064,
+      "date": "2026-07-16",
+      "name": "Threshold Maintenance 3x6min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 58,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "15m | 3\u00d76m @235W / 5m rec | 12m",
+      "description": "Warmup\n- 15m Z1-Z2 build\n\nMain Set 3x\n- 6m 235w 70rpm\n- 5m Z1 recovery\n\nCooldown\n- 12m Z1"
+    },
+    {
+      "id": 122268070,
+      "date": "2026-07-18",
+      "name": "Z2 Endurance + Torque",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 69,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "Warmup\n- 15m Z1-Z2\n\nEndurance\n- 40m Z2\n\nClimbing Specificity\n- 10m 210w 70rpm\n\nCooldown\n- 25m Z2"
+    },
+    {
+      "id": 122268075,
+      "date": "2026-07-19",
+      "name": "Alpe Goal Pace Simulation",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 104,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "Warmup\n- 20m Z2\n\nTempo\n- 30m Z2\n\nSimulation\n- 20m 225w 70rpm\n\nEndurance\n- 40m Z2\n\nCooldown\n- 10m Z1"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 3.85,
