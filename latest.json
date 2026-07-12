@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-12T15:16:04.915958",
+    "last_updated": "2026-07-12T16:25:35.471180",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -105,7 +105,7 @@
       "sleep": {
         "status": "unavailable",
         "hours": null,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "red",
@@ -205,10 +205,10 @@
       "weight_kg": 76.5,
       "resting_hr": 42,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_score": null,
+      "sleep_score": 83.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -233,7 +233,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 88.0
     }
   },
   "derived_metrics": {
@@ -357,14 +357,12 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 3,
       "completed_days": 4,
-      "matched_days": 2,
+      "matched_days": 1,
       "planned_dates": [
-        "2026-07-06",
-        "2026-07-08",
         "2026-07-09",
         "2026-07-11",
         "2026-07-12"
@@ -426,13 +424,13 @@
     "p_max": 787,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-12T15:16:04.914694",
+    "calculation_timestamp": "2026-07-12T16:25:35.469849",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 13,
       "activities_28d": 31,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 117,
         "outdoor": 117
@@ -705,7 +703,7 @@
       "id": "i164097254",
       "date": "2026-07-09T08:04:26",
       "type": "VirtualRide",
-      "name": "Sustained Threshold | 3x15min @ 100% FTP",
+      "name": "Rouvy Alpe d'Huez virtual",
       "duration_hours": 1.55,
       "distance_km": 15.4,
       "tss": 114,
@@ -1266,8 +1264,8 @@
       "hrv_sdnn": null,
       "sleep_hours": null,
       "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_quality": 2,
+      "sleep_score": 83.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1295,7 +1293,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": null
+      "readiness": 88.0
     }
   ],
   "planned_workouts": [
