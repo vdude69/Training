@@ -1,47 +1,9 @@
 {
-  "generated_at": "2026-07-14T23:46:42.503246",
+  "generated_at": "2026-07-15T01:53:42.644781",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i163629681",
-      "date": "2026-07-07",
-      "type": "VirtualRide",
-      "name": "TrainingPeaks Virtual - Alpe d'Huez, France",
-      "interval_summary": [
-        "1x 6m51s 87w",
-        "1x 53m53s 148w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "411s@87w64rpm",
-          "duration_secs": 411,
-          "avg_power": 87,
-          "max_power": 161,
-          "avg_hr": 78,
-          "max_hr": 93,
-          "avg_cadence": 63.537712,
-          "zone": 1,
-          "training_load": 1.8634905,
-          "decoupling": -30.823465
-        },
-        {
-          "type": "WORK",
-          "label": "3233s@148w79rpm",
-          "duration_secs": 3233,
-          "avg_power": 148,
-          "max_power": 304,
-          "avg_hr": 105,
-          "max_hr": 128,
-          "avg_cadence": 79.27599,
-          "zone": 2,
-          "training_load": 38.99485,
-          "decoupling": 9.199601
-        }
-      ]
-    },
     {
       "activity_id": "i163934318",
       "date": "2026-07-08",
