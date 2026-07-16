@@ -1,28 +1,9 @@
 {
-  "generated_at": "2026-07-15T23:53:59.955000",
+  "generated_at": "2026-07-16T02:03:57.168130",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i163934318",
-      "date": "2026-07-08",
-      "type": "VirtualRide",
-      "name": "ROUVY - Warm Up - Alpe d'Huez | France",
-      "interval_summary": [
-        "1x 49s 53bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "49s@53bpm",
-          "duration_secs": 49,
-          "avg_hr": 53,
-          "max_hr": 55,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i164097254",
       "date": "2026-07-09",
