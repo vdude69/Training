@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 0.0,
       "total_training_formatted": "0s",
-      "total_activities": 5,
+      "total_activities": 6,
       "total_tss": 0
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-05T06:07:32.704682",
+    "last_updated": "2026-08-05T08:50:35.170133",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -87,8 +87,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -116,14 +116,14 @@
         "value": null
       },
       "tsb": {
-        "status": "green",
-        "value": -13.5
+        "status": "red",
+        "value": -34.1
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 0,
       "amber": 1,
-      "red": 0,
+      "red": 1,
       "unavailable": 4
     },
     "phase_context": {
@@ -133,8 +133,18 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "tsb",
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P2 signal count. 1 red (tsb), 1 amber (acwr).",
     "alarm_refs": []
   },
   "history": {
@@ -148,11 +158,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 0.0,
-    "total_activities": 5,
+    "total_activities": 6,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 5,
+        "count": 6,
         "tss": 0,
         "distance_km": 0.0
       }
@@ -160,10 +170,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 69.04,
-      "atl": 82.5,
-      "tsb": -13.46,
-      "ramp_rate": 6.65,
+      "ctl": 73.46,
+      "atl": 107.53,
+      "tsb": -34.07,
+      "ramp_rate": 11.08,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -394,12 +404,12 @@
     "p_max": 785,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-05T06:07:32.703542",
+    "calculation_timestamp": "2026-08-05T08:50:35.168911",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 5,
-      "activities_28d": 27,
+      "activities_7d": 6,
+      "activities_28d": 28,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 141,
@@ -408,6 +418,41 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "19608960253",
+      "date": "2026-08-05T06:41:44",
+      "type": "Unknown",
+      "name": "",
+      "duration_hours": 0.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false
+    },
     {
       "id": "19592609160",
       "date": "2026-08-04T07:00:23",
@@ -872,7 +917,7 @@
     "total_training_hours": 0.0,
     "total_training_formatted": "0s",
     "total_tss": 0,
-    "activities_count": 5,
+    "activities_count": 6,
     "avg_hrv": 35.2,
     "avg_resting_hr": 47.0
   },
