@@ -1,43 +1,70 @@
 {
-  "generated_at": "2026-07-17T23:34:56.281296",
+  "generated_at": "2026-08-20T13:57:14.360536",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
     {
-      "activity_id": "i164516343",
-      "date": "2026-07-10",
-      "type": "VirtualRide",
-      "name": "TrainingPeaks Virtual - Pacing with Oli Obsidian",
+      "activity_id": "i177958481",
+      "date": "2026-08-20",
+      "type": "Ride",
+      "name": "Sanremo - Sospel - Col de Brouis - Tenda (treno) - Limone - Cuneo",
       "interval_summary": [
-        "1x 2m45s 76w",
-        "1x 6m20s 65w"
+        "1x 1h19m 106bpm",
+        "1x 29m37s 135bpm",
+        "1x 14m46s 111bpm",
+        "1x 49m12s 131bpm",
+        "1x 35s 125bpm",
+        "1x 3h41m 131bpm"
       ],
       "intervals": [
         {
           "type": "WORK",
-          "label": "165s@76w93rpm",
-          "duration_secs": 165,
-          "avg_power": 76,
-          "max_power": 130,
-          "avg_hr": 81,
-          "max_hr": 87,
-          "avg_cadence": 93.048485,
-          "zone": 1,
-          "training_load": 0.46736342,
-          "decoupling": 0.6323631
+          "label": "4798s@106bpm",
+          "duration_secs": 4798,
+          "avg_hr": 106,
+          "max_hr": 129,
+          "zone": 1
         },
         {
           "type": "WORK",
-          "label": "380s@65w86rpm",
-          "duration_secs": 380,
-          "avg_power": 65,
-          "max_power": 130,
-          "avg_hr": 79,
-          "max_hr": 85,
-          "avg_cadence": 86.09146,
-          "zone": 1,
-          "training_load": 0.32309687
+          "label": "1777s@135bpm",
+          "duration_secs": 1777,
+          "avg_hr": 135,
+          "max_hr": 147,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "886s@111bpm",
+          "duration_secs": 886,
+          "avg_hr": 111,
+          "max_hr": 142,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2952s@131bpm",
+          "duration_secs": 2952,
+          "avg_hr": 131,
+          "max_hr": 144,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "35s@125bpm",
+          "duration_secs": 35,
+          "avg_hr": 125,
+          "max_hr": 130,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "13284s@131bpm",
+          "duration_secs": 13284,
+          "avg_hr": 131,
+          "max_hr": 157,
+          "zone": 2
         }
       ]
     }
