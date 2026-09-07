@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:36:38.102458",
+  "generated_at": "2026-09-07T18:23:18.860088",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -685,6 +685,72 @@
           "zone": 1,
           "training_load": 1.3275048,
           "decoupling": 93.932556
+        }
+      ]
+    },
+    {
+      "activity_id": "i184295708",
+      "date": "2026-09-07",
+      "type": "VirtualRide",
+      "name": "Zwift - Pacer Group Ride with Bernie",
+      "interval_summary": [
+        "1x 2m6s 71w",
+        "1x 23m46s 102w",
+        "1x 17m22s 154w",
+        "1x 17m32s 95w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "126s@71w70rpm",
+          "duration_secs": 126,
+          "avg_power": 71,
+          "max_power": 144,
+          "avg_hr": 69,
+          "max_hr": 79,
+          "avg_cadence": 69.72222,
+          "zone": 1,
+          "training_load": 0.315,
+          "decoupling": -32.570477
+        },
+        {
+          "type": "WORK",
+          "label": "1426s@102w83rpm",
+          "duration_secs": 1426,
+          "avg_power": 102,
+          "max_power": 220,
+          "avg_hr": 83,
+          "max_hr": 99,
+          "avg_cadence": 82.546875,
+          "zone": 1,
+          "training_load": 8.896401,
+          "decoupling": -0.36365783
+        },
+        {
+          "type": "WORK",
+          "label": "1042s@154w87rpm",
+          "duration_secs": 1042,
+          "avg_power": 154,
+          "max_power": 529,
+          "avg_hr": 103,
+          "max_hr": 126,
+          "avg_cadence": 86.96353,
+          "zone": 2,
+          "training_load": 15.627264,
+          "decoupling": 5.250079
+        },
+        {
+          "type": "WORK",
+          "label": "1052s@95w81rpm",
+          "duration_secs": 1052,
+          "avg_power": 95,
+          "max_power": 754,
+          "avg_hr": 88,
+          "max_hr": 138,
+          "avg_cadence": 81.245445,
+          "zone": 1,
+          "training_load": 10.796261,
+          "decoupling": 25.829988
         }
       ]
     }
