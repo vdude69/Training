@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:39:28.480984",
+  "generated_at": "2026-09-08T19:35:01.492956",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -751,6 +751,482 @@
           "zone": 1,
           "training_load": 10.796261,
           "decoupling": 25.829988
+        }
+      ]
+    },
+    {
+      "activity_id": "i184659897",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - Race: VO2sday Micro Race (5 of 5) by Zwift Insider (D)",
+      "interval_summary": [
+        "1x 79s 282w",
+        "1x 2m11s 260w",
+        "1x 29s 350w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "79s@282w95rpm",
+          "duration_secs": 79,
+          "avg_power": 282,
+          "max_power": 386,
+          "avg_hr": 142,
+          "max_hr": 155,
+          "avg_cadence": 94.582275,
+          "zone": 6,
+          "training_load": 2.613463,
+          "decoupling": 16.726765
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 257,
+          "max_power": 257,
+          "avg_hr": 155,
+          "max_hr": 155,
+          "avg_cadence": 95.0,
+          "zone": 5,
+          "training_load": 0.037433837
+        },
+        {
+          "type": "WORK",
+          "label": "131s@260w93rpm",
+          "duration_secs": 131,
+          "avg_power": 260,
+          "max_power": 321,
+          "avg_hr": 161,
+          "max_hr": 171,
+          "avg_cadence": 93.44275,
+          "zone": 5,
+          "training_load": 4.5788093,
+          "decoupling": -3.1014638
+        },
+        {
+          "type": "WORK",
+          "label": "29s@350w94rpm",
+          "duration_secs": 29,
+          "avg_power": 350,
+          "max_power": 510,
+          "avg_hr": 173,
+          "max_hr": 176,
+          "avg_cadence": 94.17242,
+          "zone": 7,
+          "training_load": 1.482344,
+          "decoupling": -14.566726
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 43,
+          "avg_power": 17,
+          "max_power": 313,
+          "avg_hr": 167,
+          "max_hr": 176,
+          "avg_cadence": 15.72093,
+          "zone": 1,
+          "training_load": 1.1840806,
+          "decoupling": 79.79143
+        }
+      ]
+    },
+    {
+      "activity_id": "i184656206",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - Race: VO2sday Micro Race (4 of 5) by Zwift Insider (D)",
+      "interval_summary": [
+        "1x 2m58s 259w",
+        "1x 60s 299w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_power": 139,
+          "max_power": 164,
+          "avg_hr": 102,
+          "max_hr": 103,
+          "avg_cadence": 87.5,
+          "zone": 2,
+          "decoupling": -41.224144
+        },
+        {
+          "type": "WORK",
+          "label": "178s@259w93rpm",
+          "duration_secs": 178,
+          "avg_power": 259,
+          "max_power": 318,
+          "avg_hr": 148,
+          "max_hr": 165,
+          "avg_cadence": 92.97753,
+          "zone": 5,
+          "training_load": 5.7950945,
+          "decoupling": 18.330662
+        },
+        {
+          "type": "WORK",
+          "label": "60s@299w90rpm",
+          "duration_secs": 60,
+          "avg_power": 299,
+          "max_power": 415,
+          "avg_hr": 167,
+          "max_hr": 171,
+          "avg_cadence": 90.36667,
+          "zone": 6,
+          "training_load": 2.6132326,
+          "decoupling": 6.0009537
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 17,
+          "avg_power": 25,
+          "max_power": 232,
+          "avg_hr": 169,
+          "max_hr": 171,
+          "avg_cadence": 25.647058,
+          "zone": 1,
+          "training_load": 0.49297678,
+          "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i184652391",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - Race: VO2sday Micro Race (3 of 5) by Zwift Insider (D)",
+      "interval_summary": [
+        "1x 2m53s 269w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 46,
+          "avg_power": 286,
+          "max_power": 406,
+          "avg_hr": 128,
+          "max_hr": 145,
+          "avg_cadence": 98.21739,
+          "zone": 6,
+          "training_load": 1.2228261,
+          "decoupling": 28.060183
+        },
+        {
+          "type": "WORK",
+          "label": "173s@269w93rpm",
+          "duration_secs": 173,
+          "avg_power": 269,
+          "max_power": 404,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "avg_cadence": 92.947975,
+          "zone": 5,
+          "training_load": 6.5734367,
+          "decoupling": 9.078318
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 58,
+          "avg_power": 83,
+          "max_power": 234,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "avg_cadence": 53.86207,
+          "zone": 1,
+          "training_load": 1.2060796,
+          "decoupling": 85.46761
+        }
+      ]
+    },
+    {
+      "activity_id": "i184647614",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - Race: VO2sday Micro Race (2 of 5) by Zwift Insider (D)",
+      "interval_summary": [
+        "1x 96s 291w",
+        "1x 2m18s 259w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 177,
+          "max_power": 177,
+          "avg_hr": 97,
+          "max_hr": 97,
+          "avg_cadence": 86.0,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "96s@291w95rpm",
+          "duration_secs": 96,
+          "avg_power": 291,
+          "max_power": 387,
+          "avg_hr": 134,
+          "max_hr": 153,
+          "avg_cadence": 94.958336,
+          "zone": 6,
+          "training_load": 3.6206176,
+          "decoupling": 20.250692
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_power": 239,
+          "max_power": 272,
+          "avg_hr": 153,
+          "max_hr": 154,
+          "avg_cadence": 89.0,
+          "zone": 4,
+          "training_load": 0.11230151,
+          "decoupling": 18.729708
+        },
+        {
+          "type": "WORK",
+          "label": "138s@259w93rpm",
+          "duration_secs": 138,
+          "avg_power": 259,
+          "max_power": 327,
+          "avg_hr": 157,
+          "max_hr": 163,
+          "avg_cadence": 93.26811,
+          "zone": 5,
+          "training_load": 4.7861595,
+          "decoupling": -2.3882313
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 43,
+          "avg_power": 50,
+          "max_power": 236,
+          "avg_hr": 155,
+          "max_hr": 164,
+          "avg_cadence": 48.186047,
+          "zone": 1,
+          "training_load": 0.7895752,
+          "decoupling": 30.214201
+        }
+      ]
+    },
+    {
+      "activity_id": "i184643710",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - Race: VO2sday Micro Race (1 of 5) by Zwift Insider (D)",
+      "interval_summary": [
+        "1x 50s 342w",
+        "1x 3m4s 265w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_power": 226,
+          "max_power": 226,
+          "avg_hr": 99,
+          "max_hr": 100,
+          "avg_cadence": 88.5,
+          "zone": 4,
+          "decoupling": 1.0
+        },
+        {
+          "type": "WORK",
+          "label": "50s@342w101rpm",
+          "duration_secs": 50,
+          "avg_power": 342,
+          "max_power": 445,
+          "avg_hr": 131,
+          "max_hr": 145,
+          "avg_cadence": 101.06,
+          "zone": 6,
+          "training_load": 2.0290906,
+          "decoupling": 24.74176
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_power": 317,
+          "max_power": 317,
+          "avg_hr": 145,
+          "max_hr": 145,
+          "avg_cadence": 100.0,
+          "zone": 6,
+          "training_load": 0.053770218
+        },
+        {
+          "type": "WORK",
+          "label": "184s@265w94rpm",
+          "duration_secs": 184,
+          "avg_power": 265,
+          "max_power": 351,
+          "avg_hr": 154,
+          "max_hr": 159,
+          "avg_cadence": 94.483696,
+          "zone": 5,
+          "training_load": 7.095749,
+          "decoupling": 5.239354
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 21,
+          "avg_power": 40,
+          "max_power": 249,
+          "avg_hr": 154,
+          "max_hr": 158,
+          "avg_cadence": 34.142857,
+          "zone": 1,
+          "training_load": 0.50499684,
+          "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i184641039",
+      "date": "2026-09-08",
+      "type": "VirtualRide",
+      "name": "Zwift - CRM Warmup  pre-test or race",
+      "interval_summary": [
+        "1x 10m2s 91w",
+        "1x 60s 152w",
+        "2x 60s 114w",
+        "1x 2m 134w",
+        "2x 60s 235w",
+        "1x 2m 115w",
+        "1x 4m 112w",
+        "1x 2m59s 62w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "602s@91w77rpm",
+          "duration_secs": 602,
+          "avg_power": 91,
+          "max_power": 135,
+          "avg_hr": 81,
+          "max_hr": 96,
+          "avg_cadence": 77.38372,
+          "zone": 1,
+          "training_load": 2.9742796,
+          "decoupling": -33.935818
+        },
+        {
+          "type": "WORK",
+          "label": "60s@152w107rpm",
+          "duration_secs": 60,
+          "avg_power": 152,
+          "max_power": 240,
+          "avg_hr": 102,
+          "max_hr": 109,
+          "avg_cadence": 106.53333,
+          "zone": 2,
+          "training_load": 0.6901071,
+          "decoupling": 6.0455804
+        },
+        {
+          "type": "WORK",
+          "label": "60s@114w81rpm",
+          "duration_secs": 60,
+          "avg_power": 114,
+          "max_power": 140,
+          "avg_hr": 94,
+          "max_hr": 107,
+          "avg_cadence": 76.76667,
+          "zone": 1,
+          "training_load": 0.49228102,
+          "decoupling": -19.013828
+        },
+        {
+          "type": "WORK",
+          "label": "120s@134w99rpm",
+          "duration_secs": 120,
+          "avg_power": 134,
+          "max_power": 284,
+          "avg_hr": 98,
+          "max_hr": 103,
+          "avg_cadence": 98.50833,
+          "zone": 2,
+          "training_load": 1.131443,
+          "decoupling": 2.6749895
+        },
+        {
+          "type": "WORK",
+          "label": "60s@114w81rpm",
+          "duration_secs": 60,
+          "avg_power": 113,
+          "max_power": 172,
+          "avg_hr": 94,
+          "max_hr": 96,
+          "avg_cadence": 84.583336,
+          "zone": 1,
+          "training_load": 0.42394456,
+          "decoupling": -7.8593435
+        },
+        {
+          "type": "WORK",
+          "label": "60s@235w103rpm",
+          "duration_secs": 60,
+          "avg_power": 234,
+          "max_power": 256,
+          "avg_hr": 111,
+          "max_hr": 124,
+          "avg_cadence": 104.7,
+          "zone": 4,
+          "training_load": 1.4428481,
+          "decoupling": 2.493192
+        },
+        {
+          "type": "WORK",
+          "label": "120s@115w79rpm",
+          "duration_secs": 120,
+          "avg_power": 115,
+          "max_power": 154,
+          "avg_hr": 102,
+          "max_hr": 125,
+          "avg_cadence": 78.78333,
+          "zone": 1,
+          "training_load": 1.3616257,
+          "decoupling": -17.208305
+        },
+        {
+          "type": "WORK",
+          "label": "60s@235w103rpm",
+          "duration_secs": 60,
+          "avg_power": 235,
+          "max_power": 268,
+          "avg_hr": 111,
+          "max_hr": 125,
+          "avg_cadence": 100.85,
+          "zone": 4,
+          "training_load": 1.4428481,
+          "decoupling": 2.2285218
+        },
+        {
+          "type": "WORK",
+          "label": "240s@112w74rpm",
+          "duration_secs": 240,
+          "avg_power": 112,
+          "max_power": 148,
+          "avg_hr": 96,
+          "max_hr": 125,
+          "avg_cadence": 73.629166,
+          "zone": 1,
+          "training_load": 2.2292376,
+          "decoupling": -12.694646
+        },
+        {
+          "type": "WORK",
+          "label": "179s@62w83rpm",
+          "duration_secs": 179,
+          "avg_power": 62,
+          "max_power": 488,
+          "avg_hr": 85,
+          "max_hr": 98,
+          "avg_cadence": 83.02235,
+          "zone": 1,
+          "training_load": 0.6632136,
+          "decoupling": -62.471138
         }
       ]
     }
