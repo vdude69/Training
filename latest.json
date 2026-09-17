@@ -64,13 +64,13 @@
     "quick_stats": {
       "total_training_hours": 3.04,
       "total_training_formatted": "3h2m",
-      "total_activities": 13,
+      "total_activities": 10,
       "total_tss": 128
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-17T18:32:59.435368",
+    "last_updated": "2026-09-17T21:44:53.836704",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -10.5
+        "value": -1.8
       }
     },
     "signal_summary": {
@@ -138,11 +138,11 @@
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
     "total_duration_decimal_hours": 3.04,
-    "total_activities": 13,
+    "total_activities": 10,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
-        "count": 5,
+        "count": 2,
         "tss": 0,
         "distance_km": 0.0
       },
@@ -156,10 +156,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 65.76,
-      "atl": 76.25,
-      "tsb": -10.49,
-      "ramp_rate": 3.25,
+      "ctl": 63.91,
+      "atl": 65.73,
+      "tsb": -1.82,
+      "ramp_rate": 1.39,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -412,12 +412,12 @@
     "p_max": 771,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-17T18:32:59.133756",
+    "calculation_timestamp": "2026-09-17T21:44:53.835250",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 13,
-      "activities_28d": 45,
+      "activities_7d": 10,
+      "activities_28d": 42,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 184,
@@ -426,41 +426,6 @@
     }
   },
   "recent_activities": [
-    {
-      "id": "20217090107",
-      "date": "2026-09-17T19:31:49",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
-    },
     {
       "id": "i187712125",
       "date": "2026-09-17T19:31:45",
@@ -565,76 +530,6 @@
       },
       "has_intervals": true,
       "description": "\ud83d\uddfa\ufe0f Montmartre Mixer in Paris\n\ud83c\udf89 Leveled up today"
-    },
-    {
-      "id": "20216863612",
-      "date": "2026-09-17T18:44:59",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
-    },
-    {
-      "id": "20216143802",
-      "date": "2026-09-17T18:34:28",
-      "type": "Unknown",
-      "name": "",
-      "duration_hours": 0.0,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": null,
-      "has_intervals": false
     },
     {
       "id": "i187688571",
@@ -1309,7 +1204,7 @@
     "total_training_hours": 3.04,
     "total_training_formatted": "3h2m",
     "total_tss": 128,
-    "activities_count": 13,
+    "activities_count": 10,
     "avg_hrv": 31.3,
     "avg_resting_hr": 44.2
   },
