@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:38:29.439599",
+  "generated_at": "2026-09-23T17:58:06.874455",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -429,6 +429,111 @@
           "zone": 1,
           "training_load": 0.5346996,
           "decoupling": 73.65109
+        }
+      ]
+    },
+    {
+      "activity_id": "i189637863",
+      "date": "2026-09-23",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Workout: IntervalCoach - Resistenza Lunga",
+      "interval_summary": [
+        "1x 9m8s 111w",
+        "4x 11m45s 155w",
+        "1x 5m58s 96w",
+        "1x 24s 6w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "548s@111w78rpm",
+          "duration_secs": 548,
+          "avg_power": 111,
+          "max_power": 145,
+          "avg_hr": 84,
+          "max_hr": 93,
+          "avg_cadence": 77.68978,
+          "zone": 1,
+          "training_load": 3.6095946,
+          "decoupling": -0.79653114
+        },
+        {
+          "type": "WORK",
+          "label": "705s@155w83rpm",
+          "duration_secs": 720,
+          "avg_power": 149,
+          "max_power": 153,
+          "avg_hr": 98,
+          "max_hr": 102,
+          "avg_cadence": 84.422226,
+          "zone": 2,
+          "training_load": 8.393573,
+          "decoupling": 0.8587344
+        },
+        {
+          "type": "WORK",
+          "label": "705s@155w83rpm",
+          "duration_secs": 720,
+          "avg_power": 153,
+          "max_power": 179,
+          "avg_hr": 102,
+          "max_hr": 106,
+          "avg_cadence": 84.42083,
+          "zone": 2,
+          "training_load": 8.9663515,
+          "decoupling": 1.7382545
+        },
+        {
+          "type": "WORK",
+          "label": "705s@155w83rpm",
+          "duration_secs": 720,
+          "avg_power": 161,
+          "max_power": 172,
+          "avg_hr": 106,
+          "max_hr": 111,
+          "avg_cadence": 82.959724,
+          "zone": 2,
+          "training_load": 9.8,
+          "decoupling": 1.6405121
+        },
+        {
+          "type": "WORK",
+          "label": "705s@155w83rpm",
+          "duration_secs": 660,
+          "avg_power": 158,
+          "max_power": 169,
+          "avg_hr": 107,
+          "max_hr": 114,
+          "avg_cadence": 82.068184,
+          "zone": 2,
+          "training_load": 8.872086,
+          "decoupling": 0.9333137
+        },
+        {
+          "type": "WORK",
+          "label": "358s@96w73rpm",
+          "duration_secs": 358,
+          "avg_power": 96,
+          "max_power": 115,
+          "avg_hr": 92,
+          "max_hr": 109,
+          "avg_cadence": 73.3743,
+          "zone": 1,
+          "training_load": 1.9943404,
+          "decoupling": -6.418361
+        },
+        {
+          "type": "WORK",
+          "label": "24s@6w5rpm",
+          "duration_secs": 24,
+          "avg_power": 6,
+          "max_power": 76,
+          "avg_hr": 82,
+          "max_hr": 87,
+          "avg_cadence": 5.3333335,
+          "zone": 1,
+          "training_load": 0.037514176,
+          "decoupling": 100.0
         }
       ]
     }
