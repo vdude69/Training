@@ -1,47 +1,9 @@
 {
-  "generated_at": "2026-09-23T23:44:11.610599",
+  "generated_at": "2026-09-24T01:39:56.614432",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i187364957",
-      "date": "2026-09-16",
-      "type": "VirtualRide",
-      "name": "Zwift - Pacer Group Ride with Taylor",
-      "interval_summary": [
-        "1x 2m37s 42w",
-        "1x 7m1s 71w"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "157s@42w70rpm",
-          "duration_secs": 157,
-          "avg_power": 42,
-          "max_power": 114,
-          "avg_hr": 70,
-          "max_hr": 78,
-          "avg_cadence": 69.592354,
-          "zone": 1,
-          "training_load": 0.17444444,
-          "decoupling": -7.5820546
-        },
-        {
-          "type": "WORK",
-          "label": "421s@71w78rpm",
-          "duration_secs": 421,
-          "avg_power": 71,
-          "max_power": 125,
-          "avg_hr": 75,
-          "max_hr": 81,
-          "avg_cadence": 77.701454,
-          "zone": 1,
-          "training_load": 1.3013663,
-          "decoupling": 4.433865
-        }
-      ]
-    },
     {
       "activity_id": "i187705832",
       "date": "2026-09-17",
