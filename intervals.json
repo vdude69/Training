@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:01:31.197062",
+  "generated_at": "2026-11-13T17:42:29.136606",
   "version": "3.86",
   "scan_hours": 72,
   "retention_days": 7,
@@ -74,6 +74,72 @@
           "zone": 2,
           "training_load": 10.990109,
           "decoupling": 7.5220423
+        }
+      ]
+    },
+    {
+      "activity_id": "i209596729",
+      "date": "2026-11-13",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Workout: 45' c/30' Z2 HR cap 100 bpm",
+      "interval_summary": [
+        "1x 8m6s 107w",
+        "1x 29m59s 124w",
+        "1x 6m58s 92w",
+        "1x 29s 55w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "486s@107w74rpm",
+          "duration_secs": 486,
+          "avg_power": 107,
+          "max_power": 136,
+          "avg_hr": 88,
+          "max_hr": 96,
+          "avg_cadence": 74.37069,
+          "zone": 1,
+          "training_load": 2.8343565,
+          "decoupling": 0.10845659
+        },
+        {
+          "type": "WORK",
+          "label": "1799s@124w85rpm",
+          "duration_secs": 1799,
+          "avg_power": 124,
+          "max_power": 153,
+          "avg_hr": 100,
+          "max_hr": 107,
+          "avg_cadence": 84.78607,
+          "zone": 1,
+          "training_load": 13.546872,
+          "decoupling": 15.215744
+        },
+        {
+          "type": "WORK",
+          "label": "418s@92w81rpm",
+          "duration_secs": 418,
+          "avg_power": 92,
+          "max_power": 144,
+          "avg_hr": 92,
+          "max_hr": 100,
+          "avg_cadence": 80.70335,
+          "zone": 1,
+          "training_load": 1.7518574,
+          "decoupling": 1.542223
+        },
+        {
+          "type": "WORK",
+          "label": "29s@55w47rpm",
+          "duration_secs": 29,
+          "avg_power": 55,
+          "max_power": 101,
+          "avg_hr": 92,
+          "max_hr": 94,
+          "avg_cadence": 46.827587,
+          "zone": 1,
+          "training_load": 0.106519744,
+          "decoupling": 24.111492
         }
       ]
     }
