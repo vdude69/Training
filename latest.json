@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-20T16:23:52.478998",
+    "last_updated": "2026-11-20T22:43:56.918780",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.86"
@@ -103,8 +103,8 @@
         "delta_bpm": -0.1
       },
       "sleep": {
-        "status": "amber",
-        "hours": 6.47,
+        "status": "green",
+        "hours": 7.63,
         "quality": 2
       },
       "acwr": {
@@ -117,8 +117,8 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 2,
+      "green": 3,
+      "amber": 1,
       "red": 1,
       "unavailable": 0
     },
@@ -206,9 +206,9 @@
       "resting_hr": 44,
       "hrv": 26.0,
       "sleep_quality": 2,
-      "sleep_hours": 6.47,
-      "sleep_formatted": "6h28m",
-      "sleep_score": 73.0,
+      "sleep_hours": 7.63,
+      "sleep_formatted": "7h38m",
+      "sleep_score": 83.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -233,7 +233,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 75.0
+      "readiness": 82.0
     }
   },
   "derived_metrics": {
@@ -418,7 +418,7 @@
     "p_max": 948,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-20T16:23:52.477981",
+    "calculation_timestamp": "2026-11-20T22:43:56.917474",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -883,10 +883,10 @@
       "resting_hr": 44,
       "hrv_rmssd": 26.0,
       "hrv_sdnn": null,
-      "sleep_hours": 6.47,
-      "sleep_formatted": "6h28m",
+      "sleep_hours": 7.63,
+      "sleep_formatted": "7h38m",
       "sleep_quality": 2,
-      "sleep_score": 73.0,
+      "sleep_score": 83.0,
       "mental_energy": null,
       "avg_sleeping_hr": 51.875,
       "vo2max": null,
@@ -914,7 +914,7 @@
       "fat_g": null,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
-      "readiness": 75.0
+      "readiness": 82.0
     }
   ],
   "planned_workouts": [],
